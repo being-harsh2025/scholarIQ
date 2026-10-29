@@ -1,0 +1,160 @@
+import os
+from contextlib import asynccontextmanager
+from pathlib import Path
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy.orm import Session
+
+from app.core.config import settings
+from app.db.session import engine, Base, SessionLocal
+from app.models.entities import User, Dataset, DatasetColumn
+from app.core.security import hash_password
+from app.api.api import api_router
+from app.api.endpoints.system import check_health
+from app.ml.preprocessing import identify_column_types
+import pandas as pd
+
+def init_seed_data(db: Session):
+    # 1. Seed standard demo users if not present
+    seed_users = [
+        {
+            "email": "admin@edupredict.ai",
+            "password": "AdminPass123!",
+            "full_name": "Dr. Eleanor Vance (Dean)",
+            "role": "admin",
+            "student_id": None
+        },
+        {
+            "email": "teacher@edupredict.ai",
+            "password": "TeacherPass123!",
+            "full_name": "Prof. Marcus Thorne",
+            "role": "teacher",
+            "student_id": None
+        },
+        {
+            "email": "student@edupredict.ai",
+            "password": "StudentPass123!",
+            "full_name": "Aria Montgomery",
+            "role": "student",
+            "student_id": "STU-10001"
+        }
+    ]
+
+    for u_info in seed_users:
+        existing = db.query(User).filter(User.email == u_info["email"]).first()
+        if not existing:
+            user = User(
+                email=u_info["email"],
+                hashed_password=hash_password(u_info["password"]),
+                full_name=u_info["full_name"],
+                role=u_info["role"],
+                student_id=u_info["student_id"],
+                is_active=True
+            )
+            db.add(user)
+    db.commit()
+
+    # 2. Seed synthetic dataset if sample CSV exists and not yet registered
+    teacher_user = db.query(User).filter(User.role == "teacher").first()
+    sample_csv_path = Path(settings.SAMPLE_DATA_DIR) / "student_performance.csv"
+    
+    if sample_csv_path.exists() and teacher_user:
+        existing_sample = db.query(Dataset).filter(Dataset.name == "Synthetic Student Academic Performance (1000 Records)").first()
+        if not existing_sample:
+            try:
+                df = pd.read_csv(sample_csv_path)
+                file_size = sample_csv_path.stat().st_size
+                
+                dataset = Dataset(
+                    user_id=teacher_user.id,
+                    name="Synthetic Student Academic Performance (1000 Records)",
+                    filename="student_performance.csv",
+                    file_path=str(sample_csv_path),
+                    row_count=len(df),
+                    column_count=len(df.columns),
+                    file_size_bytes=file_size,
+                    is_sample=True
+                )
+                db.add(dataset)
+                db.flush()
+
+                numeric_cols, categorical_cols, identifier_cols = identify_column_types(df)
+
+                for col in df.columns:
+                    col_type = "numeric" if col in numeric_cols else ("identifier" if col in identifier_cols else "categorical")
+                    missing_count = int(df[col].isna().sum())
+                    unique_count = int(df[col].nunique(dropna=True))
+                    sample_vals = [str(v) for v in df[col].dropna().head(5).tolist()]
+                    
+                    min_v, max_v, mean_v = None, None, None
+                    if col in numeric_cols:
+                        clean_series = pd.to_numeric(df[col], errors='coerce').dropna()
+                        if not clean_series.empty:
+                            min_v = float(clean_series.min())
+                            max_v = float(clean_series.max())
+                            mean_v = float(clean_series.mean())
+
+                    db.add(DatasetColumn(
+                        dataset_id=dataset.id,
+                        name=col,
+                        data_type=col_type,
+                        missing_count=missing_count,
+                        unique_count=unique_count,
+                        sample_values=sample_vals,
+                        min_val=min_v,
+                        max_val=max_v,
+                        mean_val=mean_v
+                    ))
+                db.commit()
+            except Exception as e:
+                db.rollback()
+                print(f"Failed to auto-seed sample dataset: {e}")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: create tables and seed default users
+    Base.metadata.create_all(bind=engine)
+    db = SessionLocal()
+    try:
+        init_seed_data(db)
+    finally:
+        db.close()
+    yield
+    # Shutdown logic if needed
+
+app = FastAPI(
+    title=settings.PROJECT_NAME,
+    description="Student Academic Performance Prediction System API with Regression, Classification, and Feature Selection.",
+    version="1.0.0",
+    lifespan=lifespan
+)
+
+# CORS Middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all for development and local testing
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Mount API routers
+app.include_router(api_router, prefix=settings.API_V1_STR)
+
+# Direct health endpoint
+@app.get("/api/health")
+def root_health():
+    db = SessionLocal()
+    try:
+        return check_health(db)
+    finally:
+        db.close()
+
+@app.get("/")
+def root():
+    return {
+        "project": settings.PROJECT_NAME,
+        "status": "online",
+        "docs_url": "/docs",
+        "api_v1": settings.API_V1_STR
+    }

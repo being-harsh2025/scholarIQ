@@ -1,0 +1,1001 @@
+student_id,gender,grade_level,parent_education,internet_access,tutoring,extracurricular_activities,attendance_percentage,study_hours_per_week,sleep_hours_per_day,previous_score,assignment_score,internal_exam_score,final_score,performance_category
+STU-10000,Female,Grade 10,Associate Degree,Yes,No,Yes,69.4,20.6,7.2,64.3,52.9,56.9,50.6,Needs Improvement
+STU-10001,Male,Grade 11,High School,Yes,No,Yes,87.7,12.8,6.3,70.0,45.5,35.6,45.2,Needs Improvement
+STU-10002,Male,Grade 12,Master's,Yes,No,No,85.5,10.3,7.7,71.6,47.9,55.9,52.6,Needs Improvement
+STU-10003,Male,Grade 12,High School,Yes,Yes,Yes,93.5,12.2,7.6,46.6,44.1,31.2,27.5,At Risk
+STU-10004,Female,Grade 12,Associate Degree,Yes,Yes,No,72.5,17.8,7.9,99.0,70.5,67.6,77.5,Good
+STU-10005,Female,Grade 11,Bachelor's,Yes,Yes,Yes,82.4,23.2,7.4,77.3,59.2,51.3,58.6,Needs Improvement
+STU-10006,Female,Grade 12,Associate Degree,No,No,No,65.6,9.9,10.0,72.9,64.5,52.9,46.6,Needs Improvement
+STU-10007,Male,Grade 12,Bachelor's,Yes,No,No,90.4,14.6,5.9,78.6,53.3,54.5,53.4,Needs Improvement
+STU-10008,Male,Grade 10,High School,Yes,No,Yes,88.2,16.2,5.1,79.9,58.5,46.3,60.3,Average
+STU-10009,Male,Grade 11,Associate Degree,Yes,Yes,Yes,87.9,7.5,6.6,68.0,68.4,32.2,51.4,Needs Improvement
+STU-10010,Female,Grade 10,High School,Yes,Yes,Yes,82.0,14.1,5.3,61.2,53.7,29.7,42.3,Needs Improvement
+STU-10011,Male,Grade 12,High School,Yes,No,No,87.0,4.5,5.4,78.4,68.9,47.1,51.2,Needs Improvement
+STU-10012,Male,Grade 12,Master's,Yes,No,Yes,100.0,2.5,5.9,75.4,79.1,47.4,66.7,Average
+STU-10013,Female,Grade 10,High School,Yes,Yes,No,78.6,16.4,6.0,58.7,45.7,46.5,48.6,Needs Improvement
+STU-10014,Female,Grade 12,Bachelor's,Yes,No,Yes,83.7,11.5,5.9,89.9,66.9,54.8,62.2,Average
+STU-10015,Female,Grade 12,Associate Degree,Yes,Yes,Yes,69.0,15.3,7.6,74.1,53.8,39.9,48.4,Needs Improvement
+STU-10016,Female,Grade 10,Associate Degree,Yes,No,Yes,71.6,13.9,6.4,80.2,45.7,46.3,44.4,Needs Improvement
+STU-10017,Male,Grade 11,Master's,Yes,No,Yes,83.2,7.7,6.8,89.5,65.0,62.7,64.3,Average
+STU-10018,Female,Grade 12,High School,Yes,Yes,No,95.2,13.7,8.0,70.3,67.0,42.3,57.0,Needs Improvement
+STU-10019,Female,Grade 10,Bachelor's,Yes,Yes,No,78.9,6.0,6.2,74.4,62.3,45.4,60.2,Average
+STU-10020,Male,Grade 12,Doctorate,Yes,No,No,79.2,23.0,6.7,81.3,66.4,48.8,53.8,Needs Improvement
+STU-10021,Female,Grade 10,Bachelor's,Yes,Yes,Yes,77.1,5.2,7.4,59.9,48.1,38.5,41.8,Needs Improvement
+STU-10022,Female,Grade 12,Master's,Yes,No,No,75.6,12.7,4.9,70.8,51.2,42.3,50.1,Needs Improvement
+STU-10023,Female,Grade 12,High School,Yes,No,No,85.5,7.2,4.4,71.8,67.9,51.8,52.6,Needs Improvement
+STU-10024,Female,Grade 12,Associate Degree,Yes,No,No,64.0,17.7,7.4,56.6,42.1,47.1,44.5,Needs Improvement
+STU-10025,Male,Grade 11,Associate Degree,Yes,No,Yes,97.4,11.8,7.5,99.0,77.9,57.0,67.9,Average
+STU-10026,Female,Grade 12,Bachelor's,No,No,Yes,74.0,10.6,9.3,50.3,46.3,32.5,39.0,At Risk
+STU-10027,Male,Grade 12,Doctorate,Yes,Yes,Yes,90.7,19.5,7.2,51.8,60.6,34.8,49.5,Needs Improvement
+STU-10028,Male,Grade 10,Associate Degree,Yes,No,No,66.8,14.2,7.9,88.4,69.0,45.1,61.1,Average
+STU-10029,Female,Grade 12,Bachelor's,Yes,No,Yes,90.0,17.4,6.8,80.0,55.2,46.7,61.3,Average
+STU-10030,Male,Grade 10,High School,Yes,No,Yes,90.1,7.6,7.3,55.6,43.8,36.3,40.4,Needs Improvement
+STU-10031,Female,Grade 11,Bachelor's,Yes,Yes,Yes,86.6,4.9,8.8,78.5,66.7,48.5,65.9,Average
+STU-10032,Female,Grade 10,Associate Degree,Yes,Yes,No,70.1,14.7,4.7,90.5,63.7,59.0,70.8,Average
+STU-10033,Male,Grade 10,Doctorate,Yes,No,No,85.0,11.9,7.5,69.6,54.6,42.4,59.1,Needs Improvement
+STU-10034,Male,Grade 10,Bachelor's,Yes,Yes,Yes,67.8,18.1,9.3,99.0,74.9,71.9,59.6,Needs Improvement
+STU-10035,Male,Grade 12,Associate Degree,Yes,No,Yes,79.0,13.5,7.3,45.9,45.6,33.2,46.7,Needs Improvement
+STU-10036,Female,Grade 10,High School,Yes,No,No,94.4,15.3,8.8,79.7,65.7,57.9,63.9,Average
+STU-10037,Female,Grade 12,High School,No,No,No,91.6,3.4,6.3,86.3,73.3,35.1,58.8,Needs Improvement
+STU-10038,Male,Grade 10,High School,Yes,No,No,82.2,26.3,7.0,82.5,60.8,28.5,60.0,Average
+STU-10039,Female,Grade 10,Associate Degree,Yes,No,No,70.3,12.9,7.0,67.1,63.5,46.3,57.1,Needs Improvement
+STU-10040,Female,Grade 11,Master's,Yes,No,No,89.7,18.5,4.6,65.9,51.7,35.0,57.2,Needs Improvement
+STU-10041,Male,Grade 12,Bachelor's,No,Yes,No,82.2,8.6,5.7,76.2,64.9,44.9,59.8,Needs Improvement
+STU-10042,Female,Grade 10,Bachelor's,Yes,No,Yes,54.2,16.0,5.8,81.4,65.4,51.2,64.8,Average
+STU-10043,Male,Grade 11,High School,Yes,No,No,91.4,5.5,7.9,78.4,54.2,58.8,56.5,Needs Improvement
+STU-10044,Female,Grade 12,Master's,Yes,No,No,81.7,16.9,8.0,84.6,62.0,59.0,57.7,Needs Improvement
+STU-10045,Male,Grade 11,Bachelor's,Yes,No,No,96.4,11.7,7.4,55.7,61.9,38.4,48.0,Needs Improvement
+STU-10046,Female,Grade 10,High School,Yes,Yes,Yes,68.9,14.2,7.9,66.8,60.1,51.2,53.7,Needs Improvement
+STU-10047,Male,Grade 10,Bachelor's,Yes,No,Yes,43.9,18.5,6.8,56.8,39.1,44.4,43.0,Needs Improvement
+STU-10048,Male,Grade 12,Bachelor's,Yes,No,Yes,85.3,6.0,8.3,64.6,50.2,35.2,41.2,Needs Improvement
+STU-10049,Female,Grade 10,High School,Yes,Yes,Yes,85.5,9.6,7.0,84.2,71.9,60.2,55.0,Needs Improvement
+STU-10050,Male,Grade 12,Associate Degree,Yes,No,Yes,61.7,17.0,7.1,71.5,60.7,39.8,45.9,Needs Improvement
+STU-10051,Male,Grade 11,Associate Degree,Yes,No,No,70.3,27.6,6.7,99.0,60.3,72.2,74.6,Average
+STU-10052,Male,Grade 12,High School,Yes,No,Yes,100.0,13.1,7.8,72.7,54.9,34.8,58.3,Needs Improvement
+STU-10053,Male,Grade 12,Master's,Yes,No,Yes,78.3,17.8,6.5,70.8,58.1,50.4,61.6,Average
+STU-10054,Male,Grade 12,Master's,Yes,No,Yes,90.8,13.3,8.1,71.5,64.7,48.2,63.2,Average
+STU-10055,Male,Grade 11,Bachelor's,No,Yes,No,74.2,26.6,5.8,61.1,48.5,61.6,55.4,Needs Improvement
+STU-10056,Female,Grade 12,Associate Degree,Yes,No,Yes,56.9,2.6,5.8,69.2,54.7,27.0,31.7,At Risk
+STU-10057,Female,Grade 11,Associate Degree,Yes,Yes,Yes,80.0,14.6,7.8,85.8,59.5,50.4,59.1,Needs Improvement
+STU-10058,Female,Grade 11,Bachelor's,Yes,No,No,78.8,3.4,6.9,71.6,42.3,47.8,48.5,Needs Improvement
+STU-10059,Female,Grade 11,Bachelor's,No,No,Yes,77.2,2.0,6.5,58.9,47.3,36.2,36.7,At Risk
+STU-10060,Female,Grade 12,High School,Yes,Yes,No,80.6,15.9,8.0,57.0,50.7,41.5,48.0,Needs Improvement
+STU-10061,Female,Grade 12,Bachelor's,Yes,Yes,No,85.2,14.9,6.3,63.7,52.9,35.6,54.0,Needs Improvement
+STU-10062,Male,Grade 12,Master's,Yes,No,Yes,80.2,12.1,6.8,71.0,49.0,41.0,56.6,Needs Improvement
+STU-10063,Female,Grade 11,Associate Degree,Yes,Yes,Yes,66.8,13.3,8.5,86.7,48.7,65.0,60.4,Average
+STU-10064,Female,Grade 11,High School,Yes,No,No,87.8,34.1,8.7,51.2,45.7,46.5,42.3,Needs Improvement
+STU-10065,Male,Grade 12,Bachelor's,Yes,Yes,Yes,58.6,12.3,8.7,65.5,54.9,45.8,48.3,Needs Improvement
+STU-10066,Female,Grade 10,High School,Yes,Yes,Yes,57.4,17.3,6.7,72.0,60.3,48.2,52.2,Needs Improvement
+STU-10067,Male,Grade 10,Associate Degree,No,No,Yes,90.9,9.8,8.4,44.3,55.0,25.0,40.7,Needs Improvement
+STU-10068,Female,Grade 11,High School,Yes,No,No,88.1,15.9,6.0,58.3,47.2,48.3,45.7,Needs Improvement
+STU-10069,Non-Binary,Grade 10,Associate Degree,Yes,No,Yes,81.3,12.5,6.0,60.5,44.1,44.2,49.3,Needs Improvement
+STU-10070,Male,Grade 10,Bachelor's,Yes,Yes,No,65.3,11.3,4.4,58.9,50.6,57.1,52.9,Needs Improvement
+STU-10071,Female,Grade 10,Bachelor's,Yes,No,No,73.5,25.8,8.8,72.7,60.6,46.1,57.5,Needs Improvement
+STU-10072,Female,Grade 10,High School,Yes,No,Yes,78.8,21.7,6.0,67.8,58.0,55.8,58.8,Needs Improvement
+STU-10073,Male,Grade 10,Master's,Yes,No,Yes,62.8,14.9,6.9,62.2,34.0,31.9,41.1,Needs Improvement
+STU-10074,Male,Grade 12,Master's,Yes,No,No,73.1,2.0,6.0,76.0,51.7,44.2,48.7,Needs Improvement
+STU-10075,Male,Grade 11,Master's,Yes,No,Yes,89.8,11.7,7.8,94.1,71.1,66.0,70.2,Average
+STU-10076,Male,Grade 11,High School,No,No,No,99.1,31.6,6.6,92.9,76.6,51.9,63.3,Average
+STU-10077,Female,Grade 12,Associate Degree,Yes,Yes,Yes,77.0,12.5,5.6,43.1,47.7,28.9,41.9,Needs Improvement
+STU-10078,Female,Grade 10,Doctorate,Yes,No,Yes,91.1,21.2,7.5,78.1,64.7,50.1,61.2,Average
+STU-10079,Female,Grade 12,Bachelor's,No,Yes,Yes,59.0,23.4,5.4,67.5,52.0,44.4,51.3,Needs Improvement
+STU-10080,Male,Grade 12,High School,Yes,No,Yes,89.9,15.4,6.1,72.2,61.0,51.3,54.6,Needs Improvement
+STU-10081,Male,Grade 10,High School,No,Yes,Yes,72.4,8.5,4.7,64.4,56.5,49.1,46.6,Needs Improvement
+STU-10082,Female,Grade 11,Associate Degree,Yes,No,No,85.7,2.0,5.4,71.6,61.1,39.4,46.5,Needs Improvement
+STU-10083,Female,Grade 12,Master's,Yes,No,Yes,79.0,18.4,7.2,72.1,57.8,51.4,56.9,Needs Improvement
+STU-10084,Female,Grade 12,Bachelor's,Yes,Yes,Yes,97.8,8.7,4.8,61.9,55.5,39.7,53.4,Needs Improvement
+STU-10085,Female,Grade 11,Associate Degree,Yes,Yes,Yes,71.5,15.1,5.4,57.5,48.6,39.9,48.0,Needs Improvement
+STU-10086,Male,Grade 11,High School,Yes,Yes,No,89.5,5.9,7.0,63.7,59.4,29.6,46.1,Needs Improvement
+STU-10087,Male,Grade 10,Bachelor's,Yes,No,Yes,78.6,12.3,6.4,73.3,59.7,55.9,64.4,Average
+STU-10088,Male,Grade 12,Master's,Yes,No,No,80.1,14.2,9.2,78.4,63.5,53.3,55.9,Needs Improvement
+STU-10089,Female,Grade 10,Associate Degree,Yes,Yes,Yes,79.8,15.7,9.0,81.9,71.9,56.8,62.9,Average
+STU-10090,Female,Grade 12,Bachelor's,Yes,No,Yes,71.9,6.8,6.0,63.1,52.8,32.0,36.8,At Risk
+STU-10091,Male,Grade 11,Doctorate,No,Yes,Yes,81.8,21.8,7.6,74.0,54.5,49.0,61.2,Average
+STU-10092,Male,Grade 11,High School,Yes,No,No,81.2,10.1,7.8,83.5,69.9,50.1,51.2,Needs Improvement
+STU-10093,Male,Grade 11,Bachelor's,Yes,No,Yes,84.9,3.1,6.3,86.3,56.5,36.9,52.6,Needs Improvement
+STU-10094,Male,Grade 10,Associate Degree,Yes,Yes,Yes,83.0,13.3,5.4,69.2,49.4,31.9,48.5,Needs Improvement
+STU-10095,Male,Grade 10,Bachelor's,Yes,No,Yes,91.6,14.2,7.0,66.9,60.5,39.8,54.5,Needs Improvement
+STU-10096,Male,Grade 10,Bachelor's,No,Yes,No,93.1,15.0,6.8,72.7,65.1,52.4,55.8,Needs Improvement
+STU-10097,Female,Grade 10,Bachelor's,Yes,Yes,Yes,69.4,22.9,6.5,53.9,37.0,37.0,44.9,Needs Improvement
+STU-10098,Female,Grade 12,Bachelor's,Yes,Yes,Yes,92.4,12.5,7.5,67.3,55.9,35.7,60.4,Average
+STU-10099,Female,Grade 11,Associate Degree,Yes,Yes,Yes,67.8,13.2,6.2,80.4,54.3,45.0,56.4,Needs Improvement
+STU-10100,Female,Grade 10,Master's,Yes,No,Yes,89.1,6.8,5.7,79.0,60.2,43.5,54.4,Needs Improvement
+STU-10101,Male,Grade 12,Bachelor's,Yes,No,No,89.4,19.3,7.1,66.2,63.8,44.2,54.5,Needs Improvement
+STU-10102,Female,Grade 12,High School,No,No,No,59.1,15.2,7.4,73.0,57.4,65.8,57.6,Needs Improvement
+STU-10103,Male,Grade 12,Bachelor's,Yes,Yes,Yes,83.1,11.3,5.7,58.5,51.6,46.8,50.7,Needs Improvement
+STU-10104,Male,Grade 12,Bachelor's,Yes,Yes,Yes,76.4,2.0,8.0,79.8,56.7,53.2,53.8,Needs Improvement
+STU-10105,Female,Grade 10,Associate Degree,Yes,No,Yes,72.9,23.4,5.1,68.9,44.7,60.1,52.7,Needs Improvement
+STU-10106,Female,Grade 11,Master's,Yes,No,Yes,98.2,6.0,6.4,66.1,69.5,31.7,49.4,Needs Improvement
+STU-10107,Male,Grade 12,Master's,Yes,Yes,Yes,74.2,10.2,6.7,64.9,56.6,31.5,47.4,Needs Improvement
+STU-10108,Female,Grade 12,Associate Degree,Yes,No,No,72.3,16.3,6.3,69.1,49.1,38.1,42.6,Needs Improvement
+STU-10109,Female,Grade 10,Doctorate,Yes,No,No,82.9,6.2,6.4,63.7,59.3,49.1,48.1,Needs Improvement
+STU-10110,Female,Grade 12,High School,Yes,No,No,90.2,4.3,9.1,79.2,63.5,41.5,48.0,Needs Improvement
+STU-10111,Female,Grade 10,High School,Yes,No,No,80.3,2.0,6.1,64.5,51.9,26.6,42.4,Needs Improvement
+STU-10112,Male,Grade 10,High School,Yes,Yes,No,96.0,18.7,9.7,92.3,75.1,57.6,67.3,Average
+STU-10113,Male,Grade 11,Master's,Yes,Yes,No,88.4,10.5,7.5,90.5,63.9,53.6,66.1,Average
+STU-10114,Male,Grade 11,Bachelor's,Yes,No,Yes,55.9,33.0,7.1,57.5,41.4,51.9,57.1,Needs Improvement
+STU-10115,Male,Grade 11,High School,Yes,Yes,No,75.6,7.5,7.5,71.0,56.8,45.2,56.3,Needs Improvement
+STU-10116,Male,Grade 10,Associate Degree,Yes,No,Yes,75.3,8.0,9.8,60.9,47.3,31.3,40.5,Needs Improvement
+STU-10117,Female,Grade 12,Bachelor's,Yes,No,Yes,87.8,10.3,5.9,65.4,61.1,47.1,50.1,Needs Improvement
+STU-10118,Male,Grade 10,High School,Yes,Yes,No,50.5,15.6,5.8,98.0,75.7,57.4,58.7,Needs Improvement
+STU-10119,Male,Grade 10,Master's,Yes,No,Yes,100.0,10.9,6.2,65.7,54.6,40.9,57.5,Needs Improvement
+STU-10120,Male,Grade 12,Master's,Yes,Yes,Yes,88.4,18.0,7.0,75.0,49.7,56.6,62.8,Average
+STU-10121,Male,Grade 12,Bachelor's,Yes,No,No,83.8,7.6,5.1,77.6,47.4,41.7,50.9,Needs Improvement
+STU-10122,Female,Grade 12,Doctorate,Yes,No,Yes,96.2,5.0,7.0,56.0,52.9,29.0,43.0,Needs Improvement
+STU-10123,Female,Grade 12,Associate Degree,Yes,No,Yes,100.0,2.3,8.9,58.0,51.4,37.9,41.8,Needs Improvement
+STU-10124,Female,Grade 11,Doctorate,Yes,No,No,92.4,2.0,7.2,53.1,53.0,25.0,44.6,Needs Improvement
+STU-10125,Female,Grade 11,Bachelor's,Yes,No,No,93.4,10.6,6.7,57.6,54.9,34.4,41.6,Needs Improvement
+STU-10126,Male,Grade 10,Bachelor's,Yes,No,Yes,83.6,12.0,6.3,30.1,30.0,27.6,37.8,At Risk
+STU-10127,Male,Grade 11,High School,Yes,No,Yes,80.3,9.9,8.0,77.6,47.8,64.6,53.3,Needs Improvement
+STU-10128,Female,Grade 11,Master's,No,Yes,Yes,76.3,22.1,6.1,98.8,72.1,71.3,72.5,Average
+STU-10129,Male,Grade 10,Associate Degree,Yes,Yes,No,72.1,22.0,9.0,72.1,56.5,55.5,52.8,Needs Improvement
+STU-10130,Female,Grade 12,High School,Yes,Yes,No,73.8,11.8,9.1,50.2,42.0,38.3,41.5,Needs Improvement
+STU-10131,Female,Grade 11,High School,Yes,Yes,Yes,65.8,2.3,7.3,61.0,36.7,26.2,35.7,At Risk
+STU-10132,Female,Grade 10,Bachelor's,No,No,Yes,81.1,10.3,7.0,63.6,57.0,41.6,45.7,Needs Improvement
+STU-10133,Female,Grade 10,Bachelor's,Yes,No,Yes,61.8,10.1,8.1,55.8,53.5,36.0,48.6,Needs Improvement
+STU-10134,Male,Grade 12,Bachelor's,Yes,No,No,84.3,9.7,8.2,82.0,65.7,53.0,60.3,Average
+STU-10135,Female,Grade 10,Master's,Yes,Yes,Yes,81.6,9.5,6.1,81.3,56.7,50.9,57.8,Needs Improvement
+STU-10136,Male,Grade 12,High School,Yes,No,No,83.8,9.8,6.4,53.8,49.8,38.0,38.7,At Risk
+STU-10137,Male,Grade 11,Bachelor's,Yes,Yes,Yes,75.7,11.5,5.5,80.2,51.0,47.9,60.5,Average
+STU-10138,Female,Grade 11,High School,Yes,No,No,100.0,9.9,7.4,91.4,80.1,56.2,70.2,Average
+STU-10139,Non-Binary,Grade 11,Master's,Yes,No,No,98.3,15.4,7.7,96.6,75.4,51.8,71.5,Average
+STU-10140,Male,Grade 12,Master's,Yes,Yes,No,67.1,16.3,5.5,99.0,55.2,60.9,72.3,Average
+STU-10141,Female,Grade 11,Bachelor's,No,Yes,Yes,84.8,8.1,6.5,57.4,49.5,47.2,49.8,Needs Improvement
+STU-10142,Male,Grade 12,Bachelor's,Yes,Yes,No,74.7,22.3,5.5,99.0,72.9,69.3,81.0,Good
+STU-10143,Female,Grade 11,Associate Degree,Yes,No,No,69.8,7.6,6.0,65.0,49.0,39.8,35.7,At Risk
+STU-10144,Female,Grade 10,Associate Degree,Yes,No,Yes,65.9,3.5,7.6,61.7,46.7,51.0,47.3,Needs Improvement
+STU-10145,Female,Grade 12,Master's,Yes,No,No,87.2,16.5,6.2,74.6,52.3,39.2,60.6,Average
+STU-10146,Male,Grade 12,Associate Degree,No,Yes,No,73.8,8.7,6.7,61.9,54.8,30.0,35.5,At Risk
+STU-10147,Male,Grade 11,Associate Degree,Yes,No,No,93.6,16.1,5.2,75.6,58.5,64.1,57.5,Needs Improvement
+STU-10148,Female,Grade 12,Associate Degree,Yes,No,No,93.9,2.0,7.2,51.5,36.0,29.8,34.6,At Risk
+STU-10149,Female,Grade 12,Master's,Yes,No,Yes,98.5,23.1,7.0,66.7,57.3,47.4,56.8,Needs Improvement
+STU-10150,Male,Grade 12,Associate Degree,Yes,Yes,Yes,71.8,18.4,6.2,88.0,70.3,48.9,60.2,Average
+STU-10151,Female,Grade 12,High School,Yes,Yes,Yes,87.7,4.2,6.8,69.2,55.6,44.0,51.5,Needs Improvement
+STU-10152,Female,Grade 12,Bachelor's,Yes,No,No,89.6,4.4,7.2,72.0,72.4,46.4,58.4,Needs Improvement
+STU-10153,Female,Grade 12,Master's,Yes,No,No,76.3,24.9,6.1,76.7,62.0,47.1,65.5,Average
+STU-10154,Non-Binary,Grade 11,High School,Yes,Yes,No,72.7,9.2,5.4,86.4,65.2,51.5,54.2,Needs Improvement
+STU-10155,Female,Grade 12,High School,Yes,Yes,Yes,100.0,8.6,9.0,46.8,49.5,27.8,37.9,At Risk
+STU-10156,Male,Grade 10,High School,No,No,Yes,84.7,2.0,6.3,78.2,61.5,46.2,53.3,Needs Improvement
+STU-10157,Male,Grade 12,Associate Degree,Yes,No,No,89.6,11.7,6.9,66.2,55.4,33.9,51.3,Needs Improvement
+STU-10158,Female,Grade 12,Associate Degree,Yes,No,Yes,72.1,12.5,8.1,72.3,53.5,56.7,53.9,Needs Improvement
+STU-10159,Male,Grade 10,Bachelor's,Yes,No,Yes,67.4,18.7,10.0,84.8,64.3,64.3,65.3,Average
+STU-10160,Female,Grade 12,Bachelor's,Yes,No,No,75.2,4.9,5.6,53.3,40.4,29.1,38.5,At Risk
+STU-10161,Male,Grade 10,Bachelor's,Yes,Yes,Yes,80.5,4.1,7.5,55.8,42.1,31.2,45.6,Needs Improvement
+STU-10162,Male,Grade 10,Associate Degree,Yes,No,Yes,69.2,16.9,6.2,42.9,32.3,31.8,34.9,At Risk
+STU-10163,Male,Grade 12,Master's,Yes,No,Yes,81.9,20.5,6.4,62.3,67.6,39.3,55.4,Needs Improvement
+STU-10164,Female,Grade 10,Associate Degree,Yes,No,Yes,61.7,3.8,6.2,88.6,64.7,47.3,46.3,Needs Improvement
+STU-10165,Male,Grade 12,Doctorate,Yes,No,No,68.6,21.0,5.8,68.3,54.8,47.0,52.7,Needs Improvement
+STU-10166,Female,Grade 12,Bachelor's,No,Yes,Yes,90.1,14.2,7.0,51.2,42.5,48.9,44.5,Needs Improvement
+STU-10167,Female,Grade 11,High School,Yes,Yes,Yes,89.2,21.1,5.4,63.2,60.0,53.9,55.2,Needs Improvement
+STU-10168,Female,Grade 10,Bachelor's,Yes,Yes,Yes,77.3,13.5,8.0,49.2,44.7,42.0,42.4,Needs Improvement
+STU-10169,Male,Grade 10,Associate Degree,Yes,Yes,No,69.8,2.0,7.1,54.2,47.4,33.9,37.8,At Risk
+STU-10170,Male,Grade 11,Bachelor's,Yes,Yes,Yes,69.7,13.0,7.5,75.4,49.7,39.7,46.7,Needs Improvement
+STU-10171,Female,Grade 12,High School,Yes,No,No,77.5,20.9,6.5,53.6,48.8,40.6,47.2,Needs Improvement
+STU-10172,Male,Grade 11,High School,Yes,No,Yes,89.7,8.2,6.6,85.6,64.1,59.4,59.2,Needs Improvement
+STU-10173,Female,Grade 10,Master's,Yes,No,Yes,93.1,11.5,7.3,69.0,54.3,34.2,45.1,Needs Improvement
+STU-10174,Male,Grade 11,High School,Yes,No,Yes,76.0,12.9,5.7,71.2,61.3,51.3,48.0,Needs Improvement
+STU-10175,Female,Grade 11,Master's,Yes,No,No,68.2,2.0,6.6,66.1,40.7,56.0,50.8,Needs Improvement
+STU-10176,Male,Grade 12,Associate Degree,Yes,No,No,85.2,24.9,6.1,80.8,67.4,66.6,63.6,Average
+STU-10177,Female,Grade 10,Bachelor's,No,No,Yes,72.1,8.1,6.0,81.0,64.8,60.3,51.9,Needs Improvement
+STU-10178,Male,Grade 12,Bachelor's,Yes,Yes,Yes,75.8,17.3,4.7,74.7,51.7,52.3,58.7,Needs Improvement
+STU-10179,Female,Grade 11,Bachelor's,Yes,Yes,No,97.9,13.4,8.5,77.9,59.6,58.0,66.2,Average
+STU-10180,Female,Grade 12,Associate Degree,Yes,No,Yes,91.9,22.2,6.2,67.0,56.8,43.3,48.3,Needs Improvement
+STU-10181,Female,Grade 11,High School,Yes,No,No,83.9,16.6,8.3,77.6,63.4,58.2,60.7,Average
+STU-10182,Male,Grade 11,High School,Yes,No,Yes,66.7,12.5,8.2,65.3,49.6,48.0,42.7,Needs Improvement
+STU-10183,Male,Grade 12,Associate Degree,Yes,Yes,No,84.5,8.2,5.6,70.0,60.8,45.3,53.7,Needs Improvement
+STU-10184,Female,Grade 10,Bachelor's,Yes,Yes,No,94.8,19.2,5.8,66.2,71.0,57.5,63.0,Average
+STU-10185,Male,Grade 12,Master's,Yes,No,No,77.5,2.0,9.8,63.6,49.2,31.8,42.2,Needs Improvement
+STU-10186,Male,Grade 12,Master's,Yes,Yes,No,98.2,18.2,8.9,60.4,44.7,41.7,51.7,Needs Improvement
+STU-10187,Male,Grade 10,Bachelor's,Yes,No,Yes,97.5,6.9,7.0,76.5,70.4,46.6,56.5,Needs Improvement
+STU-10188,Male,Grade 10,Bachelor's,Yes,No,No,100.0,22.1,7.3,88.3,82.9,52.5,76.6,Good
+STU-10189,Female,Grade 12,Bachelor's,Yes,No,Yes,85.7,15.0,6.3,86.4,69.1,57.6,58.1,Needs Improvement
+STU-10190,Female,Grade 10,Associate Degree,Yes,No,Yes,89.0,18.2,7.5,52.4,42.6,25.1,49.9,Needs Improvement
+STU-10191,Male,Grade 11,Master's,No,No,No,99.0,14.5,6.2,88.0,69.9,64.8,65.5,Average
+STU-10192,Male,Grade 11,Bachelor's,No,No,No,87.4,2.6,4.8,65.5,48.5,37.8,43.6,Needs Improvement
+STU-10193,Male,Grade 11,Bachelor's,Yes,No,No,76.0,8.4,5.5,78.4,64.2,43.6,49.1,Needs Improvement
+STU-10194,Female,Grade 10,High School,Yes,No,Yes,76.6,18.4,7.0,57.3,39.9,35.0,39.2,At Risk
+STU-10195,Female,Grade 12,Associate Degree,Yes,Yes,No,84.9,15.1,5.8,72.0,56.8,46.0,54.0,Needs Improvement
+STU-10196,Male,Grade 12,Associate Degree,No,Yes,No,66.5,21.7,6.9,74.4,48.1,58.4,50.2,Needs Improvement
+STU-10197,Male,Grade 12,Master's,Yes,Yes,Yes,80.3,16.6,5.8,49.2,47.2,40.6,48.4,Needs Improvement
+STU-10198,Male,Grade 12,Bachelor's,Yes,No,Yes,95.2,7.7,6.1,78.5,62.4,41.8,54.4,Needs Improvement
+STU-10199,Male,Grade 10,Associate Degree,Yes,No,Yes,55.7,8.8,7.9,88.8,60.7,46.9,61.6,Average
+STU-10200,Male,Grade 12,Doctorate,Yes,No,Yes,100.0,14.7,7.3,67.6,61.0,50.5,55.0,Needs Improvement
+STU-10201,Female,Grade 10,High School,Yes,Yes,No,95.5,2.0,7.0,89.0,63.4,44.3,58.7,Needs Improvement
+STU-10202,Female,Grade 10,Associate Degree,Yes,Yes,No,76.5,24.9,8.0,67.3,58.7,51.2,59.0,Needs Improvement
+STU-10203,Male,Grade 10,High School,Yes,No,No,88.5,16.9,7.5,81.9,64.5,55.3,54.9,Needs Improvement
+STU-10204,Male,Grade 11,Bachelor's,Yes,Yes,No,82.0,22.0,8.6,38.9,34.7,36.0,47.1,Needs Improvement
+STU-10205,Female,Grade 12,Master's,Yes,No,Yes,96.8,3.7,6.5,99.0,91.3,63.4,70.1,Average
+STU-10206,Female,Grade 12,Associate Degree,Yes,No,No,93.8,22.1,6.5,90.9,74.1,52.0,55.4,Needs Improvement
+STU-10207,Male,Grade 11,Master's,Yes,No,Yes,65.2,28.5,5.6,66.0,49.5,36.7,55.6,Needs Improvement
+STU-10208,Female,Grade 10,Associate Degree,Yes,Yes,No,89.0,5.4,6.5,42.4,55.1,25.0,33.9,At Risk
+STU-10209,Female,Grade 12,Master's,Yes,Yes,Yes,79.5,19.0,8.1,74.0,71.4,65.6,62.1,Average
+STU-10210,Male,Grade 11,Bachelor's,Yes,Yes,No,83.0,14.0,8.4,49.8,46.3,51.3,53.5,Needs Improvement
+STU-10211,Male,Grade 11,Master's,Yes,No,Yes,73.3,4.0,8.1,76.2,60.3,58.8,55.1,Needs Improvement
+STU-10212,Male,Grade 10,High School,Yes,No,Yes,100.0,17.2,5.0,75.8,58.0,49.6,61.7,Average
+STU-10213,Female,Grade 12,Doctorate,Yes,Yes,No,94.5,19.4,8.2,56.8,52.9,27.7,58.6,Needs Improvement
+STU-10214,Male,Grade 12,Bachelor's,Yes,No,Yes,73.1,10.1,5.0,85.7,61.2,33.9,50.7,Needs Improvement
+STU-10215,Female,Grade 10,Associate Degree,Yes,No,No,66.0,21.6,8.0,81.3,59.8,51.7,61.0,Average
+STU-10216,Female,Grade 10,Master's,Yes,Yes,Yes,77.4,3.2,6.6,83.7,65.1,46.2,55.8,Needs Improvement
+STU-10217,Male,Grade 12,Associate Degree,Yes,No,No,87.2,4.3,7.8,70.1,62.5,51.3,62.3,Average
+STU-10218,Male,Grade 11,Master's,Yes,No,Yes,84.9,14.9,5.5,50.2,49.7,42.7,45.1,Needs Improvement
+STU-10219,Male,Grade 10,High School,Yes,Yes,Yes,97.0,14.2,8.3,83.7,59.6,55.7,67.6,Average
+STU-10220,Male,Grade 12,Bachelor's,Yes,Yes,Yes,91.5,9.3,5.4,66.2,51.2,34.4,55.5,Needs Improvement
+STU-10221,Male,Grade 10,Bachelor's,Yes,No,Yes,93.6,19.3,6.3,50.5,46.7,30.7,47.5,Needs Improvement
+STU-10222,Female,Grade 11,High School,Yes,No,Yes,85.9,17.5,5.9,88.9,65.7,60.6,60.3,Average
+STU-10223,Female,Grade 12,High School,Yes,No,Yes,65.3,19.6,5.1,99.0,74.5,70.8,66.7,Average
+STU-10224,Female,Grade 11,High School,Yes,No,Yes,79.7,13.2,7.1,69.4,48.1,48.6,40.2,Needs Improvement
+STU-10225,Female,Grade 11,Associate Degree,No,No,Yes,94.7,17.9,9.0,99.0,72.6,56.0,66.5,Average
+STU-10226,Non-Binary,Grade 11,Associate Degree,Yes,No,No,81.4,11.1,9.9,71.3,64.3,50.5,55.3,Needs Improvement
+STU-10227,Female,Grade 10,Bachelor's,Yes,No,No,88.0,27.3,7.1,64.7,54.0,54.0,59.5,Needs Improvement
+STU-10228,Male,Grade 12,Associate Degree,Yes,No,Yes,78.2,8.7,8.2,61.2,54.9,29.9,29.6,At Risk
+STU-10229,Male,Grade 11,Associate Degree,Yes,Yes,No,69.6,27.7,7.3,92.9,64.3,60.1,63.0,Average
+STU-10230,Male,Grade 12,Bachelor's,Yes,No,No,80.5,14.2,7.5,59.1,53.1,45.8,46.4,Needs Improvement
+STU-10231,Male,Grade 10,High School,Yes,No,Yes,85.7,5.1,6.6,80.3,61.7,45.1,53.6,Needs Improvement
+STU-10232,Male,Grade 10,Master's,Yes,No,No,74.1,22.9,7.2,62.2,55.8,59.5,59.0,Needs Improvement
+STU-10233,Male,Grade 10,Master's,Yes,No,Yes,79.2,14.8,7.6,63.6,42.4,47.1,51.2,Needs Improvement
+STU-10234,Female,Grade 11,Bachelor's,Yes,Yes,Yes,70.7,19.5,6.4,84.4,58.7,53.3,65.8,Average
+STU-10235,Male,Grade 11,Bachelor's,Yes,Yes,Yes,95.4,22.0,6.9,64.7,60.2,47.6,55.3,Needs Improvement
+STU-10236,Female,Grade 12,Master's,Yes,Yes,No,78.5,16.2,6.9,64.3,57.1,44.8,58.6,Needs Improvement
+STU-10237,Female,Grade 11,High School,No,No,No,99.4,10.2,7.9,85.9,80.2,47.0,58.8,Needs Improvement
+STU-10238,Male,Grade 12,High School,Yes,No,Yes,100.0,20.3,5.8,92.4,70.5,54.7,68.1,Average
+STU-10239,Female,Grade 10,High School,Yes,Yes,Yes,81.0,14.0,6.9,79.0,71.7,56.8,59.6,Needs Improvement
+STU-10240,Male,Grade 12,Bachelor's,Yes,No,No,69.9,18.5,9.1,60.8,44.7,50.4,58.5,Needs Improvement
+STU-10241,Male,Grade 12,High School,Yes,No,Yes,57.0,2.0,8.3,62.9,56.1,40.5,41.7,Needs Improvement
+STU-10242,Male,Grade 12,Bachelor's,Yes,No,Yes,64.3,16.9,8.5,71.1,58.6,60.5,51.8,Needs Improvement
+STU-10243,Female,Grade 12,Doctorate,Yes,No,No,65.5,9.8,7.0,74.5,48.5,42.0,53.1,Needs Improvement
+STU-10244,Female,Grade 12,Master's,Yes,No,No,98.5,24.7,7.4,56.2,56.8,57.9,63.3,Average
+STU-10245,Male,Grade 11,Bachelor's,Yes,No,No,83.4,18.1,8.1,80.1,62.2,46.8,56.6,Needs Improvement
+STU-10246,Female,Grade 10,High School,Yes,Yes,No,86.7,15.6,8.7,71.2,63.4,39.6,58.9,Needs Improvement
+STU-10247,Male,Grade 10,Master's,Yes,Yes,No,55.4,17.2,4.9,46.0,36.4,25.0,41.1,Needs Improvement
+STU-10248,Male,Grade 12,Bachelor's,Yes,No,Yes,67.6,7.5,5.6,57.0,44.6,31.9,30.0,At Risk
+STU-10249,Male,Grade 11,High School,Yes,No,Yes,92.6,24.6,8.4,62.9,66.0,44.1,55.2,Needs Improvement
+STU-10250,Female,Grade 12,High School,Yes,No,Yes,85.4,26.9,6.7,69.0,56.9,57.0,56.0,Needs Improvement
+STU-10251,Female,Grade 11,Master's,Yes,Yes,No,80.2,16.6,6.3,96.4,75.6,64.1,75.8,Good
+STU-10252,Male,Grade 10,Bachelor's,Yes,Yes,No,88.8,24.3,5.6,73.3,59.0,44.1,65.6,Average
+STU-10253,Female,Grade 10,Master's,Yes,No,Yes,100.0,10.3,6.4,58.2,67.8,34.5,52.3,Needs Improvement
+STU-10254,Female,Grade 12,Master's,Yes,Yes,No,79.3,8.8,5.5,73.1,53.2,42.1,63.0,Average
+STU-10255,Male,Grade 11,Bachelor's,Yes,No,Yes,82.8,14.3,9.3,65.1,50.6,29.5,46.8,Needs Improvement
+STU-10256,Male,Grade 10,Bachelor's,Yes,No,Yes,84.3,16.8,7.0,74.5,70.7,42.4,59.8,Needs Improvement
+STU-10257,Male,Grade 11,Associate Degree,Yes,No,Yes,100.0,11.4,6.9,78.1,62.9,43.1,60.5,Average
+STU-10258,Male,Grade 10,Associate Degree,Yes,No,Yes,56.8,17.5,7.6,86.9,70.0,68.9,61.6,Average
+STU-10259,Female,Grade 11,Associate Degree,No,No,No,90.2,16.0,8.1,69.7,65.4,48.7,55.7,Needs Improvement
+STU-10260,Male,Grade 10,Bachelor's,Yes,Yes,Yes,80.6,7.5,8.0,92.9,67.1,60.5,63.6,Average
+STU-10261,Non-Binary,Grade 12,Bachelor's,Yes,No,No,88.8,17.4,8.2,82.7,52.6,43.1,57.0,Needs Improvement
+STU-10262,Female,Grade 10,Master's,Yes,No,No,74.1,19.6,6.3,60.1,49.9,53.4,47.9,Needs Improvement
+STU-10263,Male,Grade 11,Associate Degree,Yes,No,Yes,81.4,15.1,6.7,99.0,72.2,73.2,71.6,Average
+STU-10264,Male,Grade 10,Bachelor's,Yes,No,No,90.5,21.5,7.8,74.6,69.9,36.9,59.3,Needs Improvement
+STU-10265,Male,Grade 10,Bachelor's,Yes,No,Yes,100.0,6.1,6.4,58.3,67.3,29.8,52.8,Needs Improvement
+STU-10266,Male,Grade 11,Bachelor's,Yes,No,Yes,91.7,17.0,7.0,93.1,66.5,64.5,73.0,Average
+STU-10267,Male,Grade 11,Bachelor's,Yes,Yes,Yes,71.8,6.4,7.4,99.0,74.5,63.1,66.7,Average
+STU-10268,Female,Grade 11,High School,Yes,No,No,76.9,6.8,7.9,69.5,60.9,36.5,40.4,Needs Improvement
+STU-10269,Female,Grade 10,Bachelor's,Yes,No,Yes,76.6,9.9,5.0,62.9,59.6,37.6,49.5,Needs Improvement
+STU-10270,Male,Grade 12,High School,Yes,No,Yes,60.5,7.9,7.8,67.6,53.6,36.7,47.1,Needs Improvement
+STU-10271,Male,Grade 12,Associate Degree,Yes,No,Yes,78.0,10.4,6.7,80.0,47.5,50.6,57.5,Needs Improvement
+STU-10272,Male,Grade 12,Associate Degree,Yes,Yes,Yes,90.8,12.6,7.8,87.9,67.4,64.9,72.4,Average
+STU-10273,Male,Grade 10,Bachelor's,Yes,No,No,66.7,19.4,7.9,78.0,48.9,47.4,54.2,Needs Improvement
+STU-10274,Male,Grade 11,Doctorate,Yes,No,Yes,94.6,11.9,8.8,71.4,59.8,53.8,58.4,Needs Improvement
+STU-10275,Male,Grade 10,Bachelor's,Yes,No,Yes,87.9,3.7,8.5,91.0,76.1,45.8,57.0,Needs Improvement
+STU-10276,Male,Grade 10,Bachelor's,Yes,No,Yes,73.2,21.4,8.5,65.6,54.7,41.1,51.5,Needs Improvement
+STU-10277,Male,Grade 12,Bachelor's,Yes,Yes,Yes,80.3,8.6,8.6,84.4,71.9,57.7,63.3,Average
+STU-10278,Male,Grade 10,Bachelor's,Yes,Yes,No,100.0,13.6,7.3,66.0,62.4,51.2,60.7,Average
+STU-10279,Male,Grade 11,High School,Yes,No,Yes,90.8,16.9,7.0,76.0,53.4,57.9,57.2,Needs Improvement
+STU-10280,Male,Grade 11,Associate Degree,Yes,Yes,No,82.1,15.3,8.0,68.4,38.7,35.5,49.6,Needs Improvement
+STU-10281,Female,Grade 12,Associate Degree,Yes,No,Yes,79.1,21.1,7.8,69.2,57.0,45.9,50.3,Needs Improvement
+STU-10282,Female,Grade 11,Associate Degree,Yes,Yes,Yes,82.9,17.1,6.7,64.7,53.2,51.6,59.6,Needs Improvement
+STU-10283,Female,Grade 10,High School,No,Yes,No,75.9,8.4,7.4,88.8,58.1,53.8,55.7,Needs Improvement
+STU-10284,Male,Grade 10,High School,Yes,No,Yes,56.7,28.2,7.0,59.7,33.3,39.8,43.0,Needs Improvement
+STU-10285,Female,Grade 11,Associate Degree,Yes,No,No,100.0,15.3,6.1,59.6,51.7,44.9,48.1,Needs Improvement
+STU-10286,Female,Grade 10,Doctorate,Yes,No,No,83.9,13.0,8.4,99.0,70.8,55.9,63.6,Average
+STU-10287,Male,Grade 11,Associate Degree,Yes,No,Yes,86.8,20.3,7.1,83.7,69.9,71.6,73.3,Average
+STU-10288,Female,Grade 10,Associate Degree,No,Yes,Yes,81.3,15.6,9.3,36.6,41.6,41.1,40.7,Needs Improvement
+STU-10289,Male,Grade 10,High School,Yes,No,No,73.2,16.6,5.2,62.1,62.1,48.1,41.5,Needs Improvement
+STU-10290,Female,Grade 11,Bachelor's,Yes,No,Yes,79.8,30.2,6.4,44.6,36.6,52.0,53.2,Needs Improvement
+STU-10291,Female,Grade 10,Associate Degree,Yes,Yes,Yes,62.8,12.2,7.0,56.7,51.5,38.4,48.6,Needs Improvement
+STU-10292,Male,Grade 11,High School,Yes,No,Yes,100.0,11.9,8.3,30.0,42.3,29.2,35.1,At Risk
+STU-10293,Female,Grade 12,Bachelor's,Yes,No,Yes,67.2,14.8,7.4,68.1,57.1,57.4,61.3,Average
+STU-10294,Female,Grade 12,High School,No,No,No,69.6,21.0,7.3,54.0,42.7,43.2,41.2,Needs Improvement
+STU-10295,Male,Grade 10,High School,Yes,Yes,Yes,76.7,4.2,5.8,70.8,63.6,39.2,42.4,Needs Improvement
+STU-10296,Male,Grade 10,High School,Yes,Yes,Yes,97.5,2.0,5.7,47.2,52.0,25.0,40.6,Needs Improvement
+STU-10297,Female,Grade 10,High School,Yes,Yes,No,82.2,10.2,7.4,71.2,53.0,44.1,52.9,Needs Improvement
+STU-10298,Male,Grade 11,High School,Yes,No,Yes,67.2,3.4,5.5,64.2,50.2,43.8,39.5,At Risk
+STU-10299,Female,Grade 12,Associate Degree,Yes,No,Yes,97.1,11.2,6.4,91.0,70.0,63.8,69.2,Average
+STU-10300,Female,Grade 10,Master's,Yes,Yes,No,90.8,17.3,7.6,89.8,72.8,62.9,65.1,Average
+STU-10301,Male,Grade 12,Bachelor's,No,No,Yes,88.5,8.2,5.9,81.0,56.1,44.7,57.2,Needs Improvement
+STU-10302,Male,Grade 10,Bachelor's,Yes,No,No,90.6,4.7,8.8,65.4,57.0,25.0,41.6,Needs Improvement
+STU-10303,Male,Grade 11,Associate Degree,Yes,No,No,100.0,14.5,8.3,97.8,78.7,57.8,65.1,Average
+STU-10304,Male,Grade 12,Master's,Yes,No,Yes,100.0,19.6,5.3,48.3,51.4,34.9,49.0,Needs Improvement
+STU-10305,Non-Binary,Grade 12,Associate Degree,Yes,Yes,Yes,73.8,3.0,6.0,50.4,54.6,26.9,40.7,Needs Improvement
+STU-10306,Male,Grade 12,High School,Yes,No,Yes,100.0,19.3,4.5,68.8,66.8,53.4,58.6,Needs Improvement
+STU-10307,Female,Grade 12,Bachelor's,Yes,No,Yes,86.6,19.3,6.1,99.0,72.8,81.0,72.8,Average
+STU-10308,Male,Grade 10,High School,Yes,No,No,88.0,20.2,7.8,67.2,58.9,49.1,51.5,Needs Improvement
+STU-10309,Female,Grade 12,Associate Degree,Yes,No,No,61.7,21.9,6.5,67.4,52.4,47.4,45.5,Needs Improvement
+STU-10310,Female,Grade 10,Bachelor's,Yes,Yes,Yes,80.0,28.3,7.5,49.8,49.3,40.9,50.8,Needs Improvement
+STU-10311,Female,Grade 12,Master's,Yes,No,No,72.2,11.7,5.3,83.2,48.3,53.2,63.2,Average
+STU-10312,Female,Grade 11,Associate Degree,Yes,Yes,No,91.9,14.7,7.9,83.3,64.4,47.3,62.0,Average
+STU-10313,Male,Grade 12,Bachelor's,Yes,No,No,94.9,11.3,6.4,81.0,55.7,51.7,63.9,Average
+STU-10314,Male,Grade 11,Doctorate,Yes,No,Yes,57.1,14.0,7.0,61.2,55.0,45.0,55.7,Needs Improvement
+STU-10315,Male,Grade 11,High School,Yes,Yes,Yes,81.7,24.0,6.9,60.1,51.7,47.9,50.5,Needs Improvement
+STU-10316,Female,Grade 11,Associate Degree,Yes,No,Yes,95.5,5.3,5.6,51.9,50.4,35.1,41.8,Needs Improvement
+STU-10317,Female,Grade 12,Associate Degree,Yes,Yes,No,79.8,8.4,5.7,71.2,63.4,47.2,64.0,Average
+STU-10318,Female,Grade 10,Associate Degree,Yes,No,Yes,90.7,23.0,8.1,54.9,54.9,28.7,53.4,Needs Improvement
+STU-10319,Female,Grade 10,Associate Degree,Yes,No,No,86.2,20.6,7.4,53.5,42.1,45.8,40.7,Needs Improvement
+STU-10320,Male,Grade 10,Master's,Yes,No,Yes,86.1,11.6,8.2,64.1,54.8,36.3,52.4,Needs Improvement
+STU-10321,Male,Grade 10,Bachelor's,Yes,No,Yes,78.7,19.6,7.4,63.2,50.5,36.8,49.8,Needs Improvement
+STU-10322,Male,Grade 12,Bachelor's,Yes,No,Yes,67.4,16.2,7.2,62.5,37.2,34.4,48.5,Needs Improvement
+STU-10323,Female,Grade 10,Associate Degree,Yes,No,No,68.5,23.8,5.1,76.5,51.9,58.6,54.7,Needs Improvement
+STU-10324,Male,Grade 12,Master's,Yes,No,Yes,90.5,14.5,6.7,71.1,58.7,45.3,53.5,Needs Improvement
+STU-10325,Male,Grade 10,Doctorate,Yes,No,No,82.2,20.7,7.0,66.0,54.4,34.2,50.8,Needs Improvement
+STU-10326,Male,Grade 10,Master's,Yes,Yes,Yes,80.3,31.2,9.1,72.6,47.6,60.9,64.0,Average
+STU-10327,Male,Grade 12,High School,Yes,No,Yes,76.9,17.9,7.8,56.1,56.9,29.2,46.1,Needs Improvement
+STU-10328,Female,Grade 11,Bachelor's,Yes,Yes,Yes,78.3,14.3,8.7,71.5,56.2,48.3,51.6,Needs Improvement
+STU-10329,Female,Grade 11,High School,Yes,No,Yes,94.6,18.7,7.7,72.1,61.9,51.8,54.2,Needs Improvement
+STU-10330,Female,Grade 11,Associate Degree,Yes,Yes,Yes,78.0,11.6,6.2,49.0,48.4,40.4,36.4,At Risk
+STU-10331,Male,Grade 12,High School,Yes,Yes,Yes,65.9,29.5,7.1,83.9,54.2,76.6,72.1,Average
+STU-10332,Female,Grade 10,Bachelor's,Yes,No,Yes,90.9,15.2,7.3,57.7,56.6,29.2,53.0,Needs Improvement
+STU-10333,Female,Grade 12,Bachelor's,Yes,No,Yes,79.5,12.2,6.0,71.3,54.5,45.5,51.5,Needs Improvement
+STU-10334,Female,Grade 12,High School,No,No,No,82.4,8.6,6.6,86.3,59.1,50.0,50.9,Needs Improvement
+STU-10335,Female,Grade 11,Associate Degree,Yes,Yes,No,100.0,21.1,6.8,83.0,72.5,60.7,71.5,Average
+STU-10336,Male,Grade 10,Associate Degree,No,No,Yes,81.8,19.6,8.8,70.5,67.8,51.3,59.8,Needs Improvement
+STU-10337,Male,Grade 12,Associate Degree,Yes,No,No,85.5,10.8,4.7,64.9,60.6,38.8,50.7,Needs Improvement
+STU-10338,Female,Grade 10,High School,Yes,No,No,67.9,17.7,8.3,83.3,66.4,52.0,53.4,Needs Improvement
+STU-10339,Female,Grade 10,Associate Degree,Yes,Yes,Yes,79.4,4.2,6.0,79.4,57.5,37.0,45.0,Needs Improvement
+STU-10340,Male,Grade 10,Bachelor's,No,No,No,89.3,15.2,5.5,61.3,43.6,50.0,43.8,Needs Improvement
+STU-10341,Female,Grade 11,High School,Yes,Yes,No,63.3,16.9,8.3,58.9,57.0,45.4,47.9,Needs Improvement
+STU-10342,Female,Grade 12,High School,Yes,No,Yes,84.4,25.1,7.8,41.0,57.7,43.7,41.8,Needs Improvement
+STU-10343,Female,Grade 12,Associate Degree,Yes,No,Yes,83.2,9.0,8.4,72.2,69.4,42.2,52.9,Needs Improvement
+STU-10344,Female,Grade 12,Master's,Yes,No,No,82.5,5.7,7.9,68.8,54.3,35.7,47.1,Needs Improvement
+STU-10345,Male,Grade 11,Bachelor's,Yes,No,Yes,94.4,8.2,9.3,85.9,60.4,43.1,54.0,Needs Improvement
+STU-10346,Male,Grade 11,Bachelor's,Yes,No,Yes,86.0,5.3,7.6,75.0,53.3,47.0,48.1,Needs Improvement
+STU-10347,Female,Grade 11,Associate Degree,Yes,No,Yes,99.7,22.7,6.8,88.7,59.5,53.0,72.9,Average
+STU-10348,Female,Grade 12,Bachelor's,Yes,No,Yes,70.1,24.1,7.4,60.2,48.3,61.2,59.0,Needs Improvement
+STU-10349,Male,Grade 10,High School,Yes,No,No,83.6,16.1,8.4,85.9,76.8,45.6,66.5,Average
+STU-10350,Male,Grade 12,Bachelor's,Yes,No,No,83.0,21.9,6.1,62.6,52.7,48.7,56.7,Needs Improvement
+STU-10351,Male,Grade 11,Master's,Yes,No,No,69.2,14.9,6.3,80.9,61.3,65.2,60.6,Average
+STU-10352,Male,Grade 11,Bachelor's,No,No,Yes,93.5,13.4,6.7,49.6,59.7,39.4,50.0,Needs Improvement
+STU-10353,Female,Grade 12,Master's,Yes,No,Yes,100.0,11.8,4.7,73.3,60.8,48.2,59.5,Needs Improvement
+STU-10354,Female,Grade 11,Bachelor's,Yes,No,Yes,81.8,12.0,7.2,42.2,57.4,25.0,39.9,At Risk
+STU-10355,Male,Grade 12,High School,Yes,No,Yes,88.1,3.9,4.9,66.3,70.9,27.6,44.1,Needs Improvement
+STU-10356,Female,Grade 12,Master's,Yes,Yes,Yes,83.0,15.7,7.1,76.2,59.6,56.7,50.3,Needs Improvement
+STU-10357,Male,Grade 11,High School,Yes,No,No,73.4,13.7,8.0,62.7,47.1,54.1,55.4,Needs Improvement
+STU-10358,Male,Grade 10,Bachelor's,Yes,No,No,60.2,18.8,6.5,55.3,48.8,37.2,46.2,Needs Improvement
+STU-10359,Male,Grade 11,High School,Yes,Yes,Yes,73.5,14.6,8.8,81.8,58.3,43.9,57.0,Needs Improvement
+STU-10360,Female,Grade 12,High School,Yes,Yes,No,65.3,12.9,5.4,68.6,43.8,25.2,42.9,Needs Improvement
+STU-10361,Male,Grade 10,Associate Degree,Yes,No,Yes,100.0,8.3,8.3,63.1,67.5,31.4,49.3,Needs Improvement
+STU-10362,Female,Grade 11,Associate Degree,Yes,No,Yes,80.6,14.5,7.7,70.6,65.6,45.9,50.6,Needs Improvement
+STU-10363,Male,Grade 11,Associate Degree,Yes,No,No,77.8,18.8,5.1,99.0,71.6,77.6,74.9,Average
+STU-10364,Male,Grade 12,Bachelor's,No,Yes,Yes,92.7,6.6,10.0,86.1,59.2,56.4,54.6,Needs Improvement
+STU-10365,Female,Grade 10,High School,Yes,No,No,68.5,14.6,6.9,86.3,53.0,57.9,57.6,Needs Improvement
+STU-10366,Male,Grade 12,High School,Yes,Yes,No,72.8,15.5,6.0,76.1,58.5,47.2,57.3,Needs Improvement
+STU-10367,Male,Grade 12,Bachelor's,Yes,No,Yes,82.8,9.3,5.5,72.3,55.0,40.2,50.7,Needs Improvement
+STU-10368,Female,Grade 10,Associate Degree,Yes,Yes,No,94.3,10.2,6.8,36.5,41.3,36.9,42.7,Needs Improvement
+STU-10369,Female,Grade 10,Bachelor's,Yes,Yes,Yes,88.0,15.5,6.9,60.5,61.2,43.4,50.0,Needs Improvement
+STU-10370,Female,Grade 12,Bachelor's,Yes,Yes,Yes,85.0,6.6,7.1,63.3,59.7,25.0,43.0,Needs Improvement
+STU-10371,Female,Grade 10,Master's,Yes,No,Yes,82.9,16.3,6.7,43.8,53.9,27.7,43.8,Needs Improvement
+STU-10372,Female,Grade 12,Bachelor's,Yes,Yes,Yes,86.8,8.2,7.7,53.8,43.4,27.2,47.0,Needs Improvement
+STU-10373,Male,Grade 11,Associate Degree,Yes,No,No,84.4,20.9,6.6,42.3,41.5,30.4,31.9,At Risk
+STU-10374,Female,Grade 10,Bachelor's,Yes,No,Yes,69.6,29.2,4.9,69.5,58.9,58.8,62.2,Average
+STU-10375,Female,Grade 12,Associate Degree,Yes,No,No,82.6,8.4,6.8,81.5,66.2,48.6,53.6,Needs Improvement
+STU-10376,Male,Grade 11,Associate Degree,Yes,No,No,69.1,17.5,4.4,85.5,72.1,56.0,59.6,Needs Improvement
+STU-10377,Female,Grade 11,Bachelor's,Yes,No,Yes,83.0,9.3,7.4,75.8,63.3,57.3,52.0,Needs Improvement
+STU-10378,Male,Grade 11,Associate Degree,Yes,Yes,No,76.2,20.8,5.9,56.5,61.8,36.9,46.0,Needs Improvement
+STU-10379,Female,Grade 11,Bachelor's,Yes,No,Yes,100.0,5.8,7.2,43.0,52.3,41.8,48.4,Needs Improvement
+STU-10380,Female,Grade 10,Master's,Yes,Yes,Yes,81.5,17.1,8.4,45.4,52.1,29.0,46.1,Needs Improvement
+STU-10381,Male,Grade 11,Master's,Yes,Yes,Yes,65.1,8.3,6.0,52.2,41.4,34.0,41.4,Needs Improvement
+STU-10382,Male,Grade 12,Master's,Yes,No,Yes,80.4,12.7,8.2,57.6,50.6,36.4,47.1,Needs Improvement
+STU-10383,Male,Grade 10,Associate Degree,Yes,No,Yes,88.2,7.3,6.5,67.8,64.1,42.3,52.6,Needs Improvement
+STU-10384,Male,Grade 11,Associate Degree,Yes,No,No,100.0,19.3,8.9,55.8,66.2,44.9,54.9,Needs Improvement
+STU-10385,Male,Grade 10,Bachelor's,Yes,No,Yes,74.9,8.6,6.6,74.7,62.7,49.3,53.7,Needs Improvement
+STU-10386,Female,Grade 12,Associate Degree,Yes,No,Yes,63.0,17.6,6.1,66.7,49.8,40.3,52.1,Needs Improvement
+STU-10387,Female,Grade 10,Bachelor's,Yes,Yes,No,91.8,11.8,7.8,70.1,69.5,36.1,60.4,Average
+STU-10388,Male,Grade 12,Bachelor's,Yes,Yes,No,65.4,13.3,6.5,86.0,45.3,74.6,66.8,Average
+STU-10389,Male,Grade 11,Bachelor's,Yes,Yes,No,76.8,15.0,6.1,53.5,37.5,33.8,45.7,Needs Improvement
+STU-10390,Non-Binary,Grade 10,Associate Degree,Yes,Yes,Yes,78.9,9.0,6.5,75.9,64.0,52.3,60.1,Average
+STU-10391,Female,Grade 10,High School,No,No,No,81.2,15.4,7.0,69.8,56.9,34.0,45.9,Needs Improvement
+STU-10392,Female,Grade 10,Associate Degree,No,No,No,90.3,23.9,8.5,65.3,61.3,46.8,57.1,Needs Improvement
+STU-10393,Male,Grade 11,High School,Yes,Yes,No,73.8,8.9,4.9,82.4,61.6,49.2,59.8,Needs Improvement
+STU-10394,Female,Grade 10,Master's,No,No,No,78.7,21.6,7.0,82.3,66.4,60.9,57.8,Needs Improvement
+STU-10395,Male,Grade 12,Associate Degree,No,No,Yes,81.8,23.7,7.7,56.7,44.7,25.0,35.9,At Risk
+STU-10396,Male,Grade 11,High School,Yes,Yes,Yes,83.8,8.7,7.2,67.4,60.3,43.2,47.7,Needs Improvement
+STU-10397,Female,Grade 10,High School,Yes,Yes,Yes,83.2,4.5,8.4,73.9,66.4,33.9,54.2,Needs Improvement
+STU-10398,Male,Grade 11,Bachelor's,Yes,Yes,Yes,87.2,16.0,6.9,66.2,65.2,47.8,50.8,Needs Improvement
+STU-10399,Male,Grade 12,Bachelor's,Yes,Yes,No,92.1,10.4,6.8,78.2,78.1,40.4,62.0,Average
+STU-10400,Female,Grade 10,Associate Degree,Yes,Yes,Yes,86.7,26.1,7.7,73.9,62.1,48.2,63.2,Average
+STU-10401,Male,Grade 10,High School,Yes,No,No,87.4,14.2,7.1,95.7,73.4,58.3,70.1,Average
+STU-10402,Male,Grade 10,Associate Degree,No,Yes,No,63.0,8.8,6.6,48.6,30.6,25.0,32.6,At Risk
+STU-10403,Male,Grade 12,Associate Degree,Yes,No,Yes,82.6,6.5,7.6,68.3,52.7,37.3,40.9,Needs Improvement
+STU-10404,Female,Grade 11,Bachelor's,Yes,No,Yes,87.8,21.1,6.3,57.3,51.0,33.6,44.7,Needs Improvement
+STU-10405,Male,Grade 11,Bachelor's,Yes,No,No,90.7,10.3,6.3,78.5,71.1,34.2,49.9,Needs Improvement
+STU-10406,Female,Grade 12,Associate Degree,Yes,No,No,73.7,14.3,6.4,47.4,39.3,42.1,38.7,At Risk
+STU-10407,Female,Grade 12,High School,No,Yes,Yes,74.1,20.2,8.5,74.8,63.0,41.9,50.7,Needs Improvement
+STU-10408,Male,Grade 11,Doctorate,Yes,No,Yes,75.1,10.9,4.0,61.2,50.9,38.2,43.6,Needs Improvement
+STU-10409,Female,Grade 12,Associate Degree,Yes,No,Yes,88.4,13.7,7.4,59.7,52.5,46.4,56.3,Needs Improvement
+STU-10410,Female,Grade 10,Bachelor's,Yes,Yes,No,94.4,13.9,7.0,49.7,52.1,30.1,41.3,Needs Improvement
+STU-10411,Male,Grade 10,High School,Yes,Yes,Yes,77.1,18.4,5.2,63.5,49.8,38.4,55.2,Needs Improvement
+STU-10412,Male,Grade 10,Associate Degree,Yes,No,No,92.9,17.8,7.3,85.2,64.7,58.5,69.5,Average
+STU-10413,Male,Grade 10,High School,Yes,No,Yes,83.5,12.6,7.5,69.6,45.4,54.2,55.6,Needs Improvement
+STU-10414,Male,Grade 11,Bachelor's,Yes,No,Yes,80.5,14.4,7.6,78.8,59.4,41.9,52.6,Needs Improvement
+STU-10415,Female,Grade 12,Doctorate,Yes,No,Yes,79.5,11.6,4.1,93.3,64.8,56.5,67.8,Average
+STU-10416,Female,Grade 10,Associate Degree,Yes,No,Yes,91.0,4.4,8.5,73.7,57.8,29.1,42.1,Needs Improvement
+STU-10417,Female,Grade 10,High School,Yes,Yes,Yes,85.9,15.7,6.2,62.2,57.2,39.7,54.5,Needs Improvement
+STU-10418,Male,Grade 11,High School,Yes,Yes,Yes,100.0,26.3,7.8,76.5,69.9,56.8,65.8,Average
+STU-10419,Male,Grade 12,Associate Degree,Yes,Yes,Yes,71.8,8.3,7.8,62.4,52.2,32.0,43.1,Needs Improvement
+STU-10420,Male,Grade 10,High School,Yes,Yes,Yes,88.2,9.0,6.0,62.9,62.2,35.9,43.0,Needs Improvement
+STU-10421,Male,Grade 11,High School,Yes,No,Yes,75.6,8.3,7.7,48.7,48.8,25.0,23.9,At Risk
+STU-10422,Female,Grade 10,Bachelor's,Yes,No,No,71.6,18.7,6.6,83.0,58.8,56.6,56.0,Needs Improvement
+STU-10423,Male,Grade 10,Associate Degree,Yes,No,Yes,81.9,16.9,4.7,64.6,51.2,53.3,57.8,Needs Improvement
+STU-10424,Female,Grade 12,Associate Degree,Yes,Yes,Yes,83.6,13.0,8.3,72.5,61.0,38.2,52.2,Needs Improvement
+STU-10425,Male,Grade 12,Master's,Yes,No,No,100.0,8.0,6.1,55.5,58.8,29.9,47.1,Needs Improvement
+STU-10426,Female,Grade 10,High School,Yes,Yes,No,79.8,14.6,6.1,76.1,69.4,53.9,61.4,Average
+STU-10427,Male,Grade 12,Doctorate,Yes,Yes,Yes,68.4,3.8,6.6,59.3,56.5,44.4,57.9,Needs Improvement
+STU-10428,Female,Grade 11,Associate Degree,Yes,Yes,No,85.3,14.9,7.3,68.0,53.2,33.6,57.4,Needs Improvement
+STU-10429,Female,Grade 12,Master's,Yes,No,No,57.1,19.7,6.9,82.3,55.9,54.7,54.8,Needs Improvement
+STU-10430,Female,Grade 11,Bachelor's,Yes,No,No,80.9,5.9,7.6,81.1,67.1,50.1,48.2,Needs Improvement
+STU-10431,Male,Grade 11,Master's,No,No,Yes,82.2,4.0,5.5,69.7,64.5,39.7,58.5,Needs Improvement
+STU-10432,Male,Grade 11,Doctorate,Yes,No,No,91.5,24.3,6.2,45.2,53.9,25.0,57.5,Needs Improvement
+STU-10433,Female,Grade 11,Associate Degree,Yes,No,Yes,93.7,10.0,6.9,99.0,74.4,64.0,69.6,Average
+STU-10434,Female,Grade 10,Doctorate,Yes,Yes,No,76.0,21.4,9.1,94.4,58.9,75.8,70.2,Average
+STU-10435,Male,Grade 10,Associate Degree,Yes,Yes,No,80.2,13.0,6.9,80.1,54.7,52.1,63.2,Average
+STU-10436,Female,Grade 10,Associate Degree,Yes,Yes,Yes,72.8,12.9,8.2,59.5,51.3,31.6,44.9,Needs Improvement
+STU-10437,Male,Grade 12,Associate Degree,Yes,No,No,68.5,16.8,7.0,68.4,55.1,42.8,49.0,Needs Improvement
+STU-10438,Male,Grade 10,Bachelor's,No,No,Yes,85.7,8.3,6.5,62.4,46.6,53.0,51.6,Needs Improvement
+STU-10439,Female,Grade 12,High School,No,Yes,No,66.7,14.9,6.7,87.7,62.2,63.7,60.0,Average
+STU-10440,Female,Grade 12,Bachelor's,Yes,No,Yes,77.0,11.5,6.8,73.7,62.1,52.0,50.2,Needs Improvement
+STU-10441,Non-Binary,Grade 10,Bachelor's,Yes,No,Yes,70.1,5.4,7.7,59.0,40.4,38.3,40.8,Needs Improvement
+STU-10442,Female,Grade 12,Bachelor's,Yes,Yes,Yes,88.6,16.2,8.5,63.4,63.4,38.5,57.6,Needs Improvement
+STU-10443,Female,Grade 11,Master's,No,No,No,100.0,12.3,7.4,85.7,67.2,52.3,64.2,Average
+STU-10444,Male,Grade 12,Associate Degree,No,No,Yes,66.4,13.0,8.3,92.4,72.9,57.3,59.0,Needs Improvement
+STU-10445,Male,Grade 10,Associate Degree,Yes,No,Yes,59.8,6.1,5.9,91.4,58.1,58.0,60.7,Average
+STU-10446,Non-Binary,Grade 12,Associate Degree,Yes,Yes,Yes,80.5,24.3,6.5,80.6,54.8,69.8,65.5,Average
+STU-10447,Male,Grade 12,High School,Yes,No,No,82.2,19.7,6.2,66.5,52.2,56.4,54.5,Needs Improvement
+STU-10448,Female,Grade 12,High School,Yes,Yes,Yes,84.6,20.3,7.3,30.0,37.2,25.0,20.3,At Risk
+STU-10449,Female,Grade 12,Associate Degree,Yes,No,Yes,76.6,12.0,6.6,74.2,55.1,49.2,50.9,Needs Improvement
+STU-10450,Male,Grade 11,Associate Degree,Yes,No,Yes,79.6,2.8,7.8,70.0,55.0,45.9,51.8,Needs Improvement
+STU-10451,Male,Grade 11,Doctorate,Yes,No,Yes,86.4,26.7,6.0,72.0,61.7,59.2,63.7,Average
+STU-10452,Female,Grade 12,Bachelor's,Yes,No,Yes,94.5,13.6,7.0,70.8,59.7,41.4,53.0,Needs Improvement
+STU-10453,Male,Grade 11,Associate Degree,Yes,No,Yes,58.5,9.1,7.8,51.4,41.0,56.6,37.7,At Risk
+STU-10454,Female,Grade 10,Bachelor's,No,No,No,77.6,16.7,4.7,77.8,47.9,41.8,55.5,Needs Improvement
+STU-10455,Male,Grade 12,High School,Yes,Yes,Yes,84.6,21.6,9.3,78.9,65.0,46.6,62.3,Average
+STU-10456,Female,Grade 12,Associate Degree,Yes,No,Yes,71.0,13.9,6.7,79.6,58.3,53.3,59.4,Needs Improvement
+STU-10457,Female,Grade 12,Bachelor's,Yes,Yes,Yes,100.0,22.3,4.8,83.3,79.9,75.0,68.1,Average
+STU-10458,Female,Grade 10,Associate Degree,Yes,No,No,74.4,21.0,7.2,78.5,52.8,48.0,55.4,Needs Improvement
+STU-10459,Female,Grade 11,Associate Degree,Yes,No,No,81.5,7.0,7.0,64.3,41.5,37.1,43.3,Needs Improvement
+STU-10460,Female,Grade 11,Doctorate,Yes,No,No,88.7,9.6,6.9,69.0,62.8,51.8,56.6,Needs Improvement
+STU-10461,Male,Grade 11,Master's,Yes,No,Yes,74.9,20.2,8.1,71.3,58.3,50.2,55.0,Needs Improvement
+STU-10462,Male,Grade 10,Bachelor's,Yes,No,Yes,59.8,2.0,7.8,71.5,44.8,37.7,42.3,Needs Improvement
+STU-10463,Male,Grade 11,Bachelor's,Yes,Yes,Yes,76.9,13.0,7.3,84.0,52.1,57.9,66.2,Average
+STU-10464,Male,Grade 12,Bachelor's,Yes,No,Yes,94.4,4.7,7.5,79.0,75.7,48.2,49.8,Needs Improvement
+STU-10465,Female,Grade 10,High School,Yes,No,Yes,78.0,10.9,6.9,99.0,80.5,68.7,74.8,Average
+STU-10466,Female,Grade 12,Associate Degree,Yes,Yes,No,71.8,12.1,9.0,99.0,51.5,71.4,70.2,Average
+STU-10467,Male,Grade 11,High School,Yes,Yes,No,93.1,11.7,5.4,71.1,57.5,48.0,55.2,Needs Improvement
+STU-10468,Female,Grade 12,Associate Degree,Yes,No,No,78.0,10.4,7.2,30.0,47.7,25.0,35.6,At Risk
+STU-10469,Male,Grade 12,Bachelor's,Yes,No,Yes,75.9,6.9,7.1,87.3,60.8,53.5,52.1,Needs Improvement
+STU-10470,Female,Grade 11,High School,Yes,No,No,83.8,28.9,7.9,62.4,50.4,54.1,51.7,Needs Improvement
+STU-10471,Male,Grade 12,Doctorate,Yes,No,Yes,91.2,26.1,6.1,58.8,52.0,47.1,57.1,Needs Improvement
+STU-10472,Female,Grade 12,Master's,Yes,Yes,Yes,100.0,6.4,5.1,64.4,51.4,38.9,60.4,Average
+STU-10473,Male,Grade 11,Bachelor's,Yes,No,No,91.9,24.3,7.2,63.7,44.7,58.0,58.2,Needs Improvement
+STU-10474,Male,Grade 10,Bachelor's,Yes,No,Yes,95.9,11.4,7.3,78.6,72.6,61.6,65.7,Average
+STU-10475,Non-Binary,Grade 11,Master's,Yes,No,Yes,75.9,14.8,8.6,48.2,31.7,25.0,37.0,At Risk
+STU-10476,Female,Grade 12,High School,No,No,Yes,69.7,13.6,5.6,54.9,48.0,37.8,39.6,At Risk
+STU-10477,Male,Grade 12,Bachelor's,Yes,No,No,82.7,9.7,8.3,74.8,65.9,41.0,61.4,Average
+STU-10478,Male,Grade 12,High School,Yes,No,No,83.3,20.4,9.6,78.7,51.7,52.0,61.3,Average
+STU-10479,Male,Grade 11,Bachelor's,Yes,No,Yes,69.1,14.8,6.6,79.0,51.7,54.8,56.3,Needs Improvement
+STU-10480,Male,Grade 12,Associate Degree,Yes,Yes,No,79.9,10.9,5.6,59.0,59.6,43.8,52.8,Needs Improvement
+STU-10481,Male,Grade 10,Master's,Yes,No,Yes,86.8,5.5,6.6,56.3,55.3,33.1,48.3,Needs Improvement
+STU-10482,Female,Grade 11,Master's,Yes,No,Yes,86.3,8.2,7.0,62.9,50.4,25.0,48.2,Needs Improvement
+STU-10483,Male,Grade 10,High School,No,No,No,88.1,3.3,7.6,73.4,68.9,34.5,49.4,Needs Improvement
+STU-10484,Male,Grade 10,Associate Degree,Yes,Yes,No,85.5,14.1,6.3,90.8,76.9,64.9,74.0,Average
+STU-10485,Male,Grade 11,Doctorate,Yes,No,No,75.9,6.2,8.7,41.3,43.0,25.0,36.4,At Risk
+STU-10486,Female,Grade 11,Associate Degree,Yes,Yes,Yes,75.8,12.3,5.8,66.9,47.6,53.1,56.2,Needs Improvement
+STU-10487,Female,Grade 12,Master's,Yes,No,No,67.6,22.9,5.1,51.3,41.0,45.0,46.2,Needs Improvement
+STU-10488,Male,Grade 11,Bachelor's,Yes,No,No,100.0,21.8,8.2,46.9,52.5,48.3,47.7,Needs Improvement
+STU-10489,Male,Grade 11,Associate Degree,Yes,No,No,82.2,13.8,4.5,83.5,62.6,51.9,57.6,Needs Improvement
+STU-10490,Female,Grade 10,Associate Degree,Yes,Yes,Yes,79.3,13.4,6.8,77.6,66.8,33.6,54.1,Needs Improvement
+STU-10491,Male,Grade 11,High School,Yes,No,No,70.9,26.2,10.0,76.3,46.6,59.8,49.9,Needs Improvement
+STU-10492,Female,Grade 10,Bachelor's,No,No,No,100.0,17.4,7.0,82.9,58.0,65.4,67.4,Average
+STU-10493,Female,Grade 10,Associate Degree,No,No,Yes,69.1,11.9,5.8,63.3,51.6,48.8,31.8,At Risk
+STU-10494,Female,Grade 11,Bachelor's,Yes,No,Yes,76.9,4.7,6.9,63.9,49.3,32.4,56.2,Needs Improvement
+STU-10495,Female,Grade 11,Associate Degree,Yes,No,Yes,87.0,16.6,6.9,99.0,68.6,64.3,75.9,Good
+STU-10496,Male,Grade 11,Bachelor's,Yes,No,No,89.2,19.4,7.2,66.5,45.0,43.0,52.4,Needs Improvement
+STU-10497,Female,Grade 11,Master's,No,Yes,No,93.5,9.9,7.7,80.3,65.5,43.1,58.4,Needs Improvement
+STU-10498,Non-Binary,Grade 11,Doctorate,Yes,Yes,No,100.0,15.9,5.9,70.1,61.7,54.9,66.5,Average
+STU-10499,Non-Binary,Grade 12,Associate Degree,Yes,No,No,88.1,11.6,8.9,44.1,50.4,25.0,35.6,At Risk
+STU-10500,Male,Grade 11,Master's,Yes,No,Yes,69.3,12.8,7.3,41.4,39.9,25.0,37.5,At Risk
+STU-10501,Male,Grade 11,Bachelor's,Yes,No,Yes,78.9,2.0,7.8,61.9,51.3,26.3,40.9,Needs Improvement
+STU-10502,Female,Grade 10,Bachelor's,No,Yes,Yes,85.7,12.6,6.3,84.8,73.8,41.6,57.9,Needs Improvement
+STU-10503,Male,Grade 11,Doctorate,Yes,Yes,Yes,100.0,20.3,8.4,81.0,58.3,56.9,71.0,Average
+STU-10504,Male,Grade 11,High School,No,No,Yes,65.2,9.9,6.7,82.8,62.8,60.3,45.9,Needs Improvement
+STU-10505,Female,Grade 11,High School,Yes,Yes,Yes,96.4,14.3,7.3,56.2,42.4,37.3,47.8,Needs Improvement
+STU-10506,Male,Grade 11,Master's,No,No,Yes,84.2,9.1,6.0,92.6,63.2,43.9,58.8,Needs Improvement
+STU-10507,Male,Grade 11,Associate Degree,Yes,Yes,Yes,92.1,16.3,5.9,56.5,44.6,46.8,52.4,Needs Improvement
+STU-10508,Male,Grade 11,Master's,Yes,No,Yes,80.8,12.6,7.8,73.0,63.8,60.6,59.2,Needs Improvement
+STU-10509,Male,Grade 12,Master's,Yes,No,Yes,71.9,7.9,6.5,69.9,53.9,37.6,54.5,Needs Improvement
+STU-10510,Male,Grade 12,High School,Yes,Yes,Yes,91.0,22.7,6.1,67.6,58.3,45.8,55.1,Needs Improvement
+STU-10511,Female,Grade 12,Master's,Yes,No,No,89.9,20.0,6.3,88.7,60.9,63.9,70.5,Average
+STU-10512,Male,Grade 12,Associate Degree,No,Yes,No,93.7,10.1,7.8,60.1,53.3,51.6,55.8,Needs Improvement
+STU-10513,Male,Grade 10,Bachelor's,Yes,No,No,81.8,17.2,6.3,51.1,42.3,33.4,43.7,Needs Improvement
+STU-10514,Female,Grade 10,Bachelor's,Yes,No,Yes,74.8,17.5,6.9,70.3,58.0,37.6,52.8,Needs Improvement
+STU-10515,Female,Grade 10,Master's,No,No,No,63.3,18.2,7.0,64.4,42.4,50.5,47.6,Needs Improvement
+STU-10516,Female,Grade 11,High School,Yes,No,No,91.8,3.0,4.9,99.0,83.6,62.5,70.9,Average
+STU-10517,Male,Grade 12,Associate Degree,Yes,No,No,87.1,20.5,5.4,79.5,51.5,55.0,58.8,Needs Improvement
+STU-10518,Non-Binary,Grade 10,Bachelor's,Yes,Yes,Yes,70.4,10.3,7.4,64.3,45.5,36.6,53.8,Needs Improvement
+STU-10519,Female,Grade 12,Bachelor's,Yes,Yes,No,75.5,11.7,6.2,55.2,59.7,44.8,49.4,Needs Improvement
+STU-10520,Male,Grade 10,Bachelor's,Yes,No,No,76.4,31.1,8.2,43.7,39.4,45.4,43.9,Needs Improvement
+STU-10521,Female,Grade 12,High School,Yes,No,No,64.2,16.0,8.1,55.6,35.9,33.2,41.6,Needs Improvement
+STU-10522,Male,Grade 11,Associate Degree,Yes,No,No,72.2,11.5,7.8,71.6,56.8,46.1,49.2,Needs Improvement
+STU-10523,Male,Grade 10,Associate Degree,Yes,No,Yes,68.4,2.0,9.0,90.0,60.1,39.8,54.5,Needs Improvement
+STU-10524,Male,Grade 11,Master's,Yes,No,Yes,77.1,23.0,6.9,85.7,57.8,65.3,55.1,Needs Improvement
+STU-10525,Female,Grade 10,Associate Degree,Yes,No,Yes,73.1,5.3,7.7,73.2,48.7,41.1,47.3,Needs Improvement
+STU-10526,Female,Grade 10,High School,No,No,No,62.5,7.5,6.4,65.5,69.0,36.7,37.6,At Risk
+STU-10527,Female,Grade 10,Doctorate,Yes,No,Yes,100.0,11.8,9.7,73.8,62.1,46.8,55.7,Needs Improvement
+STU-10528,Female,Grade 12,High School,No,No,Yes,97.0,23.2,9.2,62.7,44.1,47.6,46.8,Needs Improvement
+STU-10529,Male,Grade 11,Doctorate,Yes,Yes,Yes,72.7,19.0,7.0,94.1,77.1,69.4,72.1,Average
+STU-10530,Male,Grade 10,Bachelor's,Yes,Yes,Yes,85.3,13.0,7.4,67.4,61.0,48.9,56.7,Needs Improvement
+STU-10531,Non-Binary,Grade 11,Master's,Yes,Yes,Yes,87.0,16.0,8.5,68.8,52.5,45.4,52.1,Needs Improvement
+STU-10532,Non-Binary,Grade 12,Associate Degree,Yes,Yes,No,96.3,10.1,6.8,39.0,39.0,33.1,42.3,Needs Improvement
+STU-10533,Male,Grade 10,High School,Yes,Yes,No,72.2,14.9,6.3,67.3,57.9,48.4,58.1,Needs Improvement
+STU-10534,Male,Grade 11,Bachelor's,Yes,No,Yes,95.1,14.5,8.0,81.7,64.8,49.5,62.8,Average
+STU-10535,Male,Grade 10,Master's,Yes,No,Yes,75.4,20.3,7.1,55.1,34.4,40.5,51.4,Needs Improvement
+STU-10536,Male,Grade 10,Bachelor's,Yes,No,Yes,66.0,20.3,7.2,59.5,60.1,42.7,54.2,Needs Improvement
+STU-10537,Female,Grade 12,High School,Yes,No,No,90.7,17.2,6.1,81.1,62.0,58.1,66.0,Average
+STU-10538,Female,Grade 10,Bachelor's,Yes,Yes,Yes,97.5,11.6,5.1,49.3,61.4,30.6,56.4,Needs Improvement
+STU-10539,Female,Grade 11,Bachelor's,Yes,Yes,Yes,100.0,18.8,7.3,84.8,78.3,53.9,67.4,Average
+STU-10540,Male,Grade 12,Bachelor's,Yes,Yes,Yes,67.6,13.4,8.0,62.5,42.5,57.5,49.8,Needs Improvement
+STU-10541,Male,Grade 10,Bachelor's,Yes,No,No,90.4,7.0,6.8,64.6,63.9,46.9,55.8,Needs Improvement
+STU-10542,Female,Grade 11,Master's,Yes,Yes,No,77.1,11.4,8.6,54.3,43.4,30.1,49.0,Needs Improvement
+STU-10543,Male,Grade 10,Bachelor's,Yes,Yes,No,91.4,14.5,6.2,75.3,49.3,54.0,64.5,Average
+STU-10544,Male,Grade 12,High School,Yes,No,No,64.4,19.9,5.8,99.0,63.9,66.3,73.6,Average
+STU-10545,Female,Grade 11,Associate Degree,Yes,No,Yes,66.8,12.8,6.9,80.9,61.3,54.7,55.8,Needs Improvement
+STU-10546,Female,Grade 12,High School,Yes,Yes,Yes,72.7,6.1,6.9,57.9,45.3,36.3,43.9,Needs Improvement
+STU-10547,Male,Grade 11,Associate Degree,Yes,No,Yes,82.9,14.4,7.8,85.9,63.2,64.7,58.8,Needs Improvement
+STU-10548,Male,Grade 10,Associate Degree,Yes,No,Yes,74.3,14.7,6.1,65.6,60.9,46.9,60.2,Average
+STU-10549,Male,Grade 11,High School,Yes,No,Yes,89.9,15.2,8.5,89.2,69.6,56.9,61.2,Average
+STU-10550,Male,Grade 12,Associate Degree,Yes,No,Yes,94.3,20.0,9.2,81.3,60.2,64.1,63.4,Average
+STU-10551,Male,Grade 11,High School,Yes,Yes,Yes,89.2,20.6,7.0,30.0,44.0,29.7,36.6,At Risk
+STU-10552,Male,Grade 12,Master's,Yes,Yes,No,100.0,10.1,8.4,55.9,56.3,37.3,49.8,Needs Improvement
+STU-10553,Male,Grade 12,Master's,Yes,No,No,87.0,10.0,5.8,83.2,47.4,53.8,57.0,Needs Improvement
+STU-10554,Male,Grade 10,High School,Yes,No,No,67.4,7.2,8.2,72.1,57.2,42.9,44.0,Needs Improvement
+STU-10555,Female,Grade 10,Doctorate,Yes,No,No,98.4,18.5,8.2,55.7,57.2,40.9,48.3,Needs Improvement
+STU-10556,Female,Grade 11,Bachelor's,Yes,No,Yes,74.7,23.4,7.9,61.1,50.9,41.8,47.4,Needs Improvement
+STU-10557,Female,Grade 11,Associate Degree,Yes,No,No,92.9,12.0,7.0,43.3,53.0,25.0,47.9,Needs Improvement
+STU-10558,Male,Grade 12,High School,Yes,No,Yes,100.0,12.4,4.0,68.8,56.7,36.7,53.8,Needs Improvement
+STU-10559,Male,Grade 12,Bachelor's,Yes,No,No,87.5,23.5,6.3,99.0,75.5,56.2,75.6,Good
+STU-10560,Male,Grade 11,Bachelor's,Yes,No,Yes,64.0,17.3,6.3,81.3,47.0,47.2,60.2,Average
+STU-10561,Female,Grade 10,Bachelor's,Yes,Yes,No,71.0,16.8,5.9,99.0,71.5,62.3,78.7,Good
+STU-10562,Female,Grade 12,High School,Yes,No,Yes,97.9,6.3,7.1,82.4,81.3,49.6,50.5,Needs Improvement
+STU-10563,Female,Grade 10,High School,Yes,Yes,Yes,80.0,18.4,6.5,84.4,56.8,54.4,55.6,Needs Improvement
+STU-10564,Female,Grade 12,Associate Degree,Yes,Yes,No,83.0,8.0,6.1,97.6,65.9,39.2,57.6,Needs Improvement
+STU-10565,Male,Grade 11,Associate Degree,Yes,No,Yes,91.1,6.6,5.8,75.3,57.3,57.6,54.2,Needs Improvement
+STU-10566,Female,Grade 11,High School,Yes,Yes,No,90.4,11.7,6.2,67.4,59.0,52.2,53.7,Needs Improvement
+STU-10567,Female,Grade 10,Associate Degree,Yes,Yes,No,85.3,10.2,8.2,84.5,57.8,55.7,59.5,Needs Improvement
+STU-10568,Male,Grade 11,Master's,Yes,Yes,No,79.5,12.6,6.3,90.4,69.6,71.9,72.6,Average
+STU-10569,Female,Grade 11,Master's,Yes,No,No,78.2,4.6,6.4,63.3,58.7,29.5,45.8,Needs Improvement
+STU-10570,Male,Grade 11,Associate Degree,Yes,No,No,92.3,20.2,6.5,59.9,58.6,59.2,53.0,Needs Improvement
+STU-10571,Male,Grade 10,Master's,Yes,No,Yes,88.6,21.3,7.4,71.9,47.5,43.5,47.8,Needs Improvement
+STU-10572,Female,Grade 12,Associate Degree,Yes,Yes,No,78.9,2.0,7.5,81.6,69.1,47.9,51.7,Needs Improvement
+STU-10573,Male,Grade 12,Associate Degree,No,No,No,95.0,20.4,4.0,81.2,72.8,45.7,55.5,Needs Improvement
+STU-10574,Male,Grade 10,High School,No,No,No,80.5,8.7,8.1,50.1,52.6,32.5,34.1,At Risk
+STU-10575,Male,Grade 10,Bachelor's,Yes,Yes,Yes,71.8,19.6,8.6,96.8,70.4,67.1,66.7,Average
+STU-10576,Female,Grade 10,Doctorate,Yes,No,No,72.9,13.6,5.8,61.0,51.7,39.8,47.6,Needs Improvement
+STU-10577,Male,Grade 11,Bachelor's,Yes,Yes,No,70.3,14.2,5.9,66.3,59.4,50.0,49.6,Needs Improvement
+STU-10578,Male,Grade 11,Associate Degree,Yes,No,No,78.7,12.8,6.5,57.4,63.4,39.4,45.8,Needs Improvement
+STU-10579,Female,Grade 11,Bachelor's,Yes,No,Yes,96.8,21.9,6.2,99.0,69.0,62.3,68.5,Average
+STU-10580,Female,Grade 10,High School,Yes,No,Yes,72.3,5.9,7.2,73.4,63.8,39.1,43.1,Needs Improvement
+STU-10581,Non-Binary,Grade 11,Master's,Yes,Yes,Yes,84.3,18.0,4.9,58.1,51.2,48.3,49.8,Needs Improvement
+STU-10582,Male,Grade 11,Bachelor's,Yes,No,No,74.1,21.2,5.8,82.1,60.1,51.6,59.7,Needs Improvement
+STU-10583,Female,Grade 11,Associate Degree,Yes,No,No,78.9,18.7,8.7,80.8,50.9,62.0,56.4,Needs Improvement
+STU-10584,Male,Grade 12,Bachelor's,Yes,No,Yes,63.9,29.1,6.0,67.4,49.0,62.9,62.4,Average
+STU-10585,Female,Grade 10,Bachelor's,Yes,No,Yes,79.4,10.6,8.4,81.8,55.4,37.5,55.7,Needs Improvement
+STU-10586,Female,Grade 12,High School,Yes,No,Yes,79.7,20.2,7.4,58.4,47.5,52.3,49.0,Needs Improvement
+STU-10587,Female,Grade 11,Bachelor's,Yes,Yes,Yes,88.5,13.3,5.0,63.1,47.8,58.5,53.7,Needs Improvement
+STU-10588,Female,Grade 11,High School,Yes,No,No,84.7,22.0,7.7,41.9,40.7,37.2,42.5,Needs Improvement
+STU-10589,Female,Grade 12,Bachelor's,Yes,No,No,67.6,14.0,6.9,51.5,41.2,40.8,45.8,Needs Improvement
+STU-10590,Female,Grade 12,Master's,No,No,Yes,95.0,11.5,6.5,95.3,74.0,67.0,69.1,Average
+STU-10591,Male,Grade 12,Master's,Yes,Yes,Yes,84.5,22.5,7.3,93.0,58.0,61.3,79.5,Good
+STU-10592,Female,Grade 10,Bachelor's,Yes,No,Yes,84.4,10.8,7.5,70.9,48.1,46.4,54.9,Needs Improvement
+STU-10593,Female,Grade 10,Bachelor's,Yes,Yes,No,81.9,4.8,7.8,93.3,71.3,43.4,65.9,Average
+STU-10594,Male,Grade 12,High School,Yes,No,Yes,75.8,10.6,8.3,67.8,48.8,44.2,47.5,Needs Improvement
+STU-10595,Female,Grade 11,Bachelor's,Yes,No,Yes,84.6,18.0,7.4,66.6,63.7,50.5,59.3,Needs Improvement
+STU-10596,Male,Grade 10,Associate Degree,Yes,No,Yes,87.7,23.0,5.5,70.8,60.7,55.7,55.6,Needs Improvement
+STU-10597,Female,Grade 10,Associate Degree,Yes,Yes,No,61.0,14.7,6.5,68.3,54.9,54.2,51.0,Needs Improvement
+STU-10598,Female,Grade 10,Associate Degree,Yes,No,No,75.5,22.6,10.0,67.0,63.8,43.1,54.5,Needs Improvement
+STU-10599,Female,Grade 12,High School,Yes,Yes,No,78.9,5.2,7.8,86.0,62.1,45.9,57.4,Needs Improvement
+STU-10600,Female,Grade 10,Bachelor's,Yes,Yes,Yes,85.1,11.1,9.6,72.1,55.0,60.9,62.6,Average
+STU-10601,Female,Grade 10,High School,Yes,No,Yes,96.3,12.1,8.5,80.0,72.1,49.5,63.2,Average
+STU-10602,Female,Grade 10,Bachelor's,Yes,No,Yes,72.7,13.3,7.3,84.4,65.4,55.3,53.6,Needs Improvement
+STU-10603,Female,Grade 11,Associate Degree,Yes,No,No,76.0,14.5,7.3,75.4,56.9,48.9,49.7,Needs Improvement
+STU-10604,Female,Grade 10,High School,Yes,No,Yes,75.8,18.5,7.0,56.4,58.4,34.6,45.1,Needs Improvement
+STU-10605,Female,Grade 11,Bachelor's,Yes,No,No,72.4,11.1,5.1,51.1,43.6,47.2,41.1,Needs Improvement
+STU-10606,Female,Grade 10,High School,Yes,No,No,77.8,14.9,7.0,72.1,57.3,43.6,65.8,Average
+STU-10607,Female,Grade 12,Associate Degree,Yes,Yes,No,91.2,13.7,8.3,67.6,58.6,35.7,55.3,Needs Improvement
+STU-10608,Male,Grade 10,Bachelor's,No,No,Yes,69.4,8.0,6.3,71.2,47.8,40.0,44.1,Needs Improvement
+STU-10609,Male,Grade 11,High School,No,No,Yes,87.1,13.3,7.5,69.8,59.0,29.7,41.6,Needs Improvement
+STU-10610,Female,Grade 12,Master's,Yes,Yes,Yes,61.6,13.1,7.9,99.0,75.9,56.4,66.1,Average
+STU-10611,Male,Grade 11,High School,Yes,Yes,No,75.3,12.9,6.0,51.4,49.1,27.6,40.6,Needs Improvement
+STU-10612,Male,Grade 11,High School,Yes,No,No,78.0,14.2,6.5,42.1,42.3,35.9,37.8,At Risk
+STU-10613,Female,Grade 10,Bachelor's,Yes,Yes,Yes,100.0,14.5,5.9,74.7,63.2,43.7,58.9,Needs Improvement
+STU-10614,Male,Grade 10,Associate Degree,Yes,Yes,Yes,78.7,11.2,6.1,64.7,55.9,48.8,51.2,Needs Improvement
+STU-10615,Male,Grade 11,High School,Yes,Yes,No,55.6,22.3,5.6,74.4,57.5,64.4,63.9,Average
+STU-10616,Female,Grade 12,Associate Degree,Yes,No,No,58.0,6.4,6.0,78.2,59.0,52.8,57.1,Needs Improvement
+STU-10617,Female,Grade 11,Associate Degree,Yes,No,Yes,82.4,9.3,8.6,88.0,63.9,51.8,60.1,Average
+STU-10618,Male,Grade 11,Master's,Yes,Yes,No,89.4,32.1,6.0,48.9,50.9,45.7,51.0,Needs Improvement
+STU-10619,Male,Grade 12,Associate Degree,Yes,No,Yes,86.5,7.3,7.1,62.2,57.8,26.0,45.9,Needs Improvement
+STU-10620,Female,Grade 11,Bachelor's,Yes,No,Yes,84.0,5.2,6.4,76.0,53.6,43.6,59.5,Needs Improvement
+STU-10621,Female,Grade 10,Master's,Yes,No,No,95.9,18.8,8.3,80.8,67.5,47.9,70.2,Average
+STU-10622,Female,Grade 11,Associate Degree,Yes,Yes,No,75.5,2.0,8.4,99.0,54.8,61.1,66.5,Average
+STU-10623,Female,Grade 12,Master's,Yes,No,No,92.7,12.5,8.0,83.4,70.1,73.3,75.7,Good
+STU-10624,Male,Grade 10,Associate Degree,Yes,No,Yes,62.4,27.9,7.3,69.2,56.1,57.4,56.3,Needs Improvement
+STU-10625,Female,Grade 12,Doctorate,Yes,No,No,71.1,4.0,6.7,57.5,53.2,25.0,44.6,Needs Improvement
+STU-10626,Female,Grade 10,High School,Yes,Yes,Yes,60.3,2.0,5.7,62.1,44.6,32.4,35.9,At Risk
+STU-10627,Male,Grade 11,Bachelor's,Yes,No,Yes,78.7,4.3,9.1,61.7,54.3,37.3,46.6,Needs Improvement
+STU-10628,Female,Grade 10,Associate Degree,Yes,No,Yes,81.4,19.8,6.2,79.2,71.5,55.1,66.8,Average
+STU-10629,Female,Grade 11,Associate Degree,Yes,No,Yes,83.4,21.3,7.7,73.6,69.2,46.3,54.6,Needs Improvement
+STU-10630,Male,Grade 12,Bachelor's,Yes,Yes,No,82.7,10.7,8.2,51.5,47.9,36.2,42.2,Needs Improvement
+STU-10631,Male,Grade 11,Bachelor's,Yes,Yes,No,70.9,18.4,6.4,63.9,52.1,35.3,51.1,Needs Improvement
+STU-10632,Male,Grade 11,High School,Yes,No,Yes,79.7,23.0,8.1,82.3,70.4,50.4,58.6,Needs Improvement
+STU-10633,Male,Grade 12,High School,Yes,No,Yes,64.0,25.6,7.8,74.9,44.2,60.4,58.4,Needs Improvement
+STU-10634,Female,Grade 12,Bachelor's,Yes,Yes,Yes,98.4,12.4,8.9,78.0,63.3,41.6,58.5,Needs Improvement
+STU-10635,Female,Grade 10,Bachelor's,Yes,No,Yes,78.4,2.0,6.5,75.4,68.2,46.9,60.5,Average
+STU-10636,Male,Grade 11,Doctorate,No,Yes,No,76.1,8.7,5.6,92.8,73.8,44.9,55.7,Needs Improvement
+STU-10637,Female,Grade 10,Bachelor's,Yes,No,No,100.0,11.2,6.4,73.3,66.2,60.6,67.3,Average
+STU-10638,Female,Grade 12,Doctorate,Yes,No,Yes,67.1,12.3,7.2,64.6,39.9,36.1,44.0,Needs Improvement
+STU-10639,Female,Grade 12,Bachelor's,Yes,No,Yes,68.5,12.8,7.1,57.2,46.7,36.7,35.7,At Risk
+STU-10640,Female,Grade 11,Associate Degree,Yes,No,No,68.8,21.3,6.6,73.5,51.2,54.8,56.4,Needs Improvement
+STU-10641,Female,Grade 12,High School,No,Yes,No,81.2,22.3,4.9,35.8,42.1,27.4,33.8,At Risk
+STU-10642,Female,Grade 11,Bachelor's,Yes,No,Yes,87.2,12.9,7.5,67.4,51.6,45.3,47.8,Needs Improvement
+STU-10643,Female,Grade 11,Bachelor's,Yes,Yes,Yes,90.9,21.1,9.2,67.1,50.9,53.1,52.7,Needs Improvement
+STU-10644,Female,Grade 10,High School,Yes,No,No,100.0,16.3,7.5,50.9,38.0,44.6,46.0,Needs Improvement
+STU-10645,Male,Grade 12,Associate Degree,Yes,No,Yes,55.0,14.4,7.7,57.0,51.9,45.6,47.8,Needs Improvement
+STU-10646,Male,Grade 10,Doctorate,Yes,No,Yes,89.3,19.9,7.6,81.3,62.0,54.3,68.2,Average
+STU-10647,Male,Grade 12,Bachelor's,Yes,Yes,No,75.3,14.5,7.4,73.2,58.0,47.1,57.1,Needs Improvement
+STU-10648,Male,Grade 12,Associate Degree,Yes,No,No,75.0,27.4,8.0,71.4,55.9,73.1,64.8,Average
+STU-10649,Male,Grade 12,Associate Degree,No,Yes,No,74.6,4.7,7.4,74.3,49.8,51.0,49.2,Needs Improvement
+STU-10650,Female,Grade 10,High School,Yes,Yes,No,71.1,10.7,6.7,71.3,46.0,37.7,41.4,Needs Improvement
+STU-10651,Male,Grade 10,Associate Degree,Yes,No,No,100.0,13.2,6.1,87.4,63.7,56.1,57.5,Needs Improvement
+STU-10652,Male,Grade 10,Associate Degree,Yes,No,Yes,92.1,16.9,6.7,71.7,55.7,46.0,54.4,Needs Improvement
+STU-10653,Male,Grade 11,High School,Yes,No,Yes,82.3,22.2,7.3,49.6,49.6,38.4,43.4,Needs Improvement
+STU-10654,Female,Grade 10,Bachelor's,Yes,No,Yes,98.2,13.8,6.7,92.8,67.3,48.8,69.3,Average
+STU-10655,Female,Grade 12,Associate Degree,Yes,Yes,Yes,63.8,4.8,7.3,75.2,67.1,40.7,53.9,Needs Improvement
+STU-10656,Female,Grade 11,Master's,Yes,No,No,66.0,19.5,7.5,61.8,55.9,59.2,57.9,Needs Improvement
+STU-10657,Female,Grade 10,Master's,Yes,No,No,55.9,18.9,7.9,52.5,47.0,43.9,44.3,Needs Improvement
+STU-10658,Male,Grade 11,High School,Yes,Yes,No,73.6,2.0,8.4,75.5,56.8,25.0,38.5,At Risk
+STU-10659,Male,Grade 11,Bachelor's,No,No,No,83.9,14.0,7.1,68.4,67.5,55.1,55.4,Needs Improvement
+STU-10660,Female,Grade 11,Associate Degree,Yes,No,Yes,83.2,3.7,5.6,92.0,66.9,61.4,63.9,Average
+STU-10661,Non-Binary,Grade 11,Master's,Yes,No,Yes,83.8,9.7,6.6,65.2,55.0,38.3,39.9,At Risk
+STU-10662,Male,Grade 12,High School,Yes,No,No,65.1,8.1,7.0,58.3,47.9,42.3,37.0,At Risk
+STU-10663,Female,Grade 11,Bachelor's,Yes,No,No,91.6,19.3,5.0,82.5,70.9,49.1,60.1,Average
+STU-10664,Female,Grade 12,Bachelor's,Yes,No,No,84.9,14.8,8.5,83.0,68.9,50.0,61.5,Average
+STU-10665,Female,Grade 12,Associate Degree,Yes,No,No,90.8,5.6,7.2,72.4,57.4,54.9,50.8,Needs Improvement
+STU-10666,Female,Grade 10,High School,Yes,Yes,No,59.3,19.7,7.4,79.5,52.0,52.4,55.5,Needs Improvement
+STU-10667,Female,Grade 12,Bachelor's,Yes,No,No,85.7,4.7,8.5,69.5,62.4,25.9,45.9,Needs Improvement
+STU-10668,Female,Grade 10,Bachelor's,Yes,No,Yes,67.7,16.1,6.3,73.3,59.9,48.7,53.6,Needs Improvement
+STU-10669,Female,Grade 12,Associate Degree,Yes,No,No,77.2,8.7,7.6,86.3,61.2,51.6,53.9,Needs Improvement
+STU-10670,Female,Grade 11,Bachelor's,Yes,No,No,88.4,11.6,6.9,78.8,52.2,59.3,57.1,Needs Improvement
+STU-10671,Male,Grade 12,Associate Degree,Yes,No,Yes,83.1,17.3,6.8,67.6,54.8,46.8,47.9,Needs Improvement
+STU-10672,Female,Grade 12,Bachelor's,Yes,No,No,71.8,17.4,6.2,88.9,68.2,55.1,64.5,Average
+STU-10673,Male,Grade 12,High School,Yes,Yes,Yes,82.1,22.7,8.8,36.9,53.3,41.1,46.3,Needs Improvement
+STU-10674,Female,Grade 12,Master's,Yes,No,No,63.6,13.5,6.6,98.7,58.1,62.7,62.5,Average
+STU-10675,Non-Binary,Grade 10,Associate Degree,Yes,No,Yes,95.8,16.0,7.8,46.1,45.9,28.2,48.6,Needs Improvement
+STU-10676,Female,Grade 10,Associate Degree,Yes,Yes,No,79.5,11.2,4.9,61.2,49.3,49.1,49.4,Needs Improvement
+STU-10677,Female,Grade 11,High School,Yes,No,Yes,95.4,15.2,8.3,69.4,69.9,48.1,61.9,Average
+STU-10678,Male,Grade 10,High School,Yes,No,No,75.7,16.9,8.2,67.9,54.1,46.7,47.1,Needs Improvement
+STU-10679,Male,Grade 12,Bachelor's,Yes,No,Yes,75.7,13.4,7.1,84.1,56.1,55.0,50.3,Needs Improvement
+STU-10680,Male,Grade 11,Associate Degree,Yes,Yes,Yes,72.8,2.3,6.8,55.2,51.2,25.0,40.9,Needs Improvement
+STU-10681,Female,Grade 12,Master's,Yes,Yes,Yes,92.5,16.2,7.4,73.7,59.0,45.2,62.5,Average
+STU-10682,Female,Grade 11,High School,Yes,No,No,73.5,16.4,9.5,61.9,42.2,43.1,45.6,Needs Improvement
+STU-10683,Male,Grade 12,Associate Degree,Yes,Yes,Yes,89.7,9.6,5.1,74.1,55.0,44.5,52.6,Needs Improvement
+STU-10684,Male,Grade 10,Associate Degree,Yes,No,Yes,77.4,5.7,7.9,69.1,67.6,51.3,51.1,Needs Improvement
+STU-10685,Male,Grade 12,High School,Yes,No,No,58.3,23.6,6.0,71.3,54.1,53.9,49.8,Needs Improvement
+STU-10686,Male,Grade 12,High School,No,Yes,Yes,75.2,17.2,7.0,62.3,52.2,50.6,46.6,Needs Improvement
+STU-10687,Female,Grade 11,Associate Degree,Yes,Yes,No,67.9,12.5,6.7,62.9,48.0,41.5,51.6,Needs Improvement
+STU-10688,Male,Grade 11,Associate Degree,Yes,No,Yes,82.4,6.6,6.5,74.0,61.3,52.8,54.5,Needs Improvement
+STU-10689,Female,Grade 12,Associate Degree,Yes,No,No,67.7,8.7,7.0,83.2,61.8,53.7,58.0,Needs Improvement
+STU-10690,Female,Grade 10,Bachelor's,Yes,No,Yes,93.1,22.5,5.8,61.6,58.0,46.4,54.7,Needs Improvement
+STU-10691,Female,Grade 11,Bachelor's,Yes,No,Yes,80.9,14.9,8.1,57.8,51.5,39.9,46.4,Needs Improvement
+STU-10692,Male,Grade 11,High School,Yes,Yes,No,79.9,10.4,5.0,78.6,67.0,41.3,49.3,Needs Improvement
+STU-10693,Female,Grade 10,Associate Degree,Yes,No,No,89.9,17.3,7.6,69.5,59.2,51.8,54.5,Needs Improvement
+STU-10694,Female,Grade 11,Doctorate,Yes,No,No,93.6,8.7,6.6,81.6,59.2,49.3,46.5,Needs Improvement
+STU-10695,Male,Grade 10,Bachelor's,Yes,No,Yes,81.8,23.8,5.7,57.3,46.4,40.6,47.6,Needs Improvement
+STU-10696,Female,Grade 10,Bachelor's,No,No,Yes,72.7,22.8,7.2,45.1,30.0,46.2,40.5,Needs Improvement
+STU-10697,Male,Grade 10,Associate Degree,Yes,No,Yes,60.7,11.0,5.3,62.5,61.8,30.4,44.6,Needs Improvement
+STU-10698,Female,Grade 12,Bachelor's,No,Yes,No,73.8,9.9,7.0,59.3,55.6,34.7,42.6,Needs Improvement
+STU-10699,Female,Grade 11,Bachelor's,Yes,No,Yes,74.6,2.0,5.4,68.9,48.8,47.2,49.8,Needs Improvement
+STU-10700,Male,Grade 12,Bachelor's,Yes,Yes,Yes,83.3,4.4,7.5,61.1,51.1,38.5,38.5,At Risk
+STU-10701,Female,Grade 11,Doctorate,Yes,Yes,Yes,77.9,5.3,6.0,80.4,56.8,46.8,58.9,Needs Improvement
+STU-10702,Female,Grade 10,High School,Yes,No,No,90.3,14.9,6.5,66.0,68.2,46.5,44.9,Needs Improvement
+STU-10703,Female,Grade 11,High School,Yes,No,Yes,74.6,11.9,7.3,72.1,46.3,47.6,43.6,Needs Improvement
+STU-10704,Female,Grade 11,Bachelor's,No,No,No,81.3,5.3,6.2,72.2,58.9,30.5,43.7,Needs Improvement
+STU-10705,Non-Binary,Grade 10,Master's,No,No,Yes,96.2,12.2,6.9,72.7,61.6,43.9,60.1,Average
+STU-10706,Female,Grade 11,High School,Yes,No,No,86.1,17.3,5.3,69.7,63.9,60.8,58.6,Needs Improvement
+STU-10707,Male,Grade 10,Associate Degree,Yes,Yes,Yes,81.3,17.4,7.7,77.1,59.8,46.7,58.6,Needs Improvement
+STU-10708,Female,Grade 11,High School,Yes,No,No,74.8,2.0,8.9,58.9,37.3,30.9,36.6,At Risk
+STU-10709,Male,Grade 11,Associate Degree,No,No,No,74.4,13.2,10.0,89.6,63.1,52.2,52.7,Needs Improvement
+STU-10710,Male,Grade 10,Bachelor's,Yes,No,Yes,71.8,5.0,7.1,66.7,45.9,38.7,43.0,Needs Improvement
+STU-10711,Male,Grade 10,Bachelor's,Yes,No,No,75.5,19.9,7.9,51.6,46.7,34.7,46.7,Needs Improvement
+STU-10712,Female,Grade 12,Associate Degree,Yes,Yes,Yes,91.1,19.1,5.0,72.6,70.9,54.3,56.0,Needs Improvement
+STU-10713,Female,Grade 11,Associate Degree,Yes,No,No,79.3,8.2,8.7,58.1,38.3,38.0,45.1,Needs Improvement
+STU-10714,Female,Grade 10,High School,No,No,No,65.8,9.0,7.9,79.3,51.8,54.8,46.3,Needs Improvement
+STU-10715,Male,Grade 12,Associate Degree,Yes,Yes,Yes,100.0,11.0,6.5,99.0,72.6,52.1,73.0,Average
+STU-10716,Male,Grade 10,Bachelor's,Yes,No,Yes,85.8,2.0,8.4,59.0,50.0,30.8,47.0,Needs Improvement
+STU-10717,Male,Grade 12,Doctorate,Yes,No,Yes,65.1,16.2,6.7,74.7,60.1,48.2,49.2,Needs Improvement
+STU-10718,Female,Grade 12,Master's,Yes,No,Yes,76.7,12.2,6.5,45.4,42.2,35.3,39.2,At Risk
+STU-10719,Male,Grade 10,High School,Yes,No,Yes,83.3,20.3,7.5,76.4,63.6,46.8,52.0,Needs Improvement
+STU-10720,Male,Grade 10,Master's,Yes,Yes,Yes,100.0,6.9,5.8,57.6,51.4,42.8,45.1,Needs Improvement
+STU-10721,Female,Grade 10,Bachelor's,Yes,Yes,Yes,68.7,10.0,8.1,61.3,50.8,48.7,45.7,Needs Improvement
+STU-10722,Female,Grade 10,Bachelor's,No,Yes,No,93.7,4.2,5.8,54.6,58.0,25.0,52.5,Needs Improvement
+STU-10723,Male,Grade 10,Associate Degree,Yes,No,Yes,98.8,7.5,5.8,80.3,61.7,44.4,59.2,Needs Improvement
+STU-10724,Male,Grade 12,Associate Degree,Yes,Yes,Yes,74.5,6.3,6.0,84.1,67.6,45.5,65.4,Average
+STU-10725,Male,Grade 10,Associate Degree,No,Yes,No,78.7,20.5,7.8,70.3,56.8,71.0,63.1,Average
+STU-10726,Female,Grade 11,High School,Yes,No,Yes,69.6,9.5,6.3,57.9,55.1,33.6,36.9,At Risk
+STU-10727,Male,Grade 12,High School,Yes,No,Yes,79.6,14.8,5.5,92.3,66.2,72.3,63.9,Average
+STU-10728,Female,Grade 12,High School,Yes,No,Yes,81.6,11.5,6.3,59.5,54.5,28.9,44.7,Needs Improvement
+STU-10729,Female,Grade 11,Associate Degree,Yes,Yes,No,89.9,5.7,7.0,39.7,43.8,25.0,39.1,At Risk
+STU-10730,Female,Grade 10,Bachelor's,Yes,Yes,No,95.1,12.9,5.7,76.4,63.2,43.6,57.6,Needs Improvement
+STU-10731,Male,Grade 11,Associate Degree,No,Yes,Yes,73.0,17.9,5.7,54.5,48.8,33.1,35.2,At Risk
+STU-10732,Male,Grade 11,High School,Yes,No,No,58.4,6.1,9.3,83.8,61.4,47.3,64.7,Average
+STU-10733,Male,Grade 11,Doctorate,Yes,No,Yes,81.7,19.3,6.1,64.7,45.7,40.5,53.0,Needs Improvement
+STU-10734,Female,Grade 10,Master's,Yes,No,No,85.5,8.5,6.6,78.5,72.4,41.3,55.9,Needs Improvement
+STU-10735,Male,Grade 12,Bachelor's,Yes,Yes,No,85.0,10.9,6.6,89.6,54.7,64.5,67.3,Average
+STU-10736,Female,Grade 11,Doctorate,Yes,No,No,78.1,17.4,6.5,53.1,42.8,48.6,49.5,Needs Improvement
+STU-10737,Male,Grade 10,Bachelor's,Yes,Yes,Yes,83.5,9.7,7.7,62.1,52.9,47.1,53.2,Needs Improvement
+STU-10738,Female,Grade 11,Doctorate,Yes,No,Yes,100.0,14.2,8.0,68.9,64.3,49.9,66.5,Average
+STU-10739,Female,Grade 11,High School,Yes,No,Yes,86.6,12.0,6.7,91.5,80.2,57.7,62.7,Average
+STU-10740,Female,Grade 12,Associate Degree,No,No,No,77.5,14.8,5.6,60.8,38.3,37.6,36.2,At Risk
+STU-10741,Female,Grade 12,High School,Yes,Yes,No,76.0,2.0,8.4,61.7,47.8,27.4,39.7,At Risk
+STU-10742,Male,Grade 12,High School,Yes,Yes,No,80.0,2.1,6.9,76.7,45.1,46.2,48.4,Needs Improvement
+STU-10743,Male,Grade 10,High School,Yes,No,No,100.0,18.0,8.9,61.9,58.2,34.6,55.9,Needs Improvement
+STU-10744,Female,Grade 11,Bachelor's,Yes,Yes,Yes,79.8,20.7,4.5,72.1,59.5,43.1,63.5,Average
+STU-10745,Male,Grade 11,Bachelor's,Yes,Yes,No,81.8,8.1,7.2,48.3,57.4,40.2,46.6,Needs Improvement
+STU-10746,Female,Grade 10,Bachelor's,Yes,Yes,No,76.2,12.4,9.1,99.0,70.9,76.5,67.8,Average
+STU-10747,Male,Grade 10,High School,Yes,Yes,No,95.2,15.9,6.6,51.1,58.6,40.0,43.1,Needs Improvement
+STU-10748,Male,Grade 12,Master's,Yes,No,No,100.0,18.5,6.8,65.5,63.8,55.1,61.3,Average
+STU-10749,Male,Grade 10,Bachelor's,No,No,No,87.4,2.0,7.3,69.5,55.3,37.4,46.6,Needs Improvement
+STU-10750,Female,Grade 11,Associate Degree,No,Yes,Yes,83.0,8.2,6.4,96.8,60.9,47.0,57.3,Needs Improvement
+STU-10751,Male,Grade 10,Bachelor's,No,No,No,82.4,11.8,6.7,51.5,49.9,39.7,39.4,At Risk
+STU-10752,Male,Grade 10,Associate Degree,Yes,No,Yes,53.4,18.6,6.6,97.8,52.9,68.6,60.9,Average
+STU-10753,Female,Grade 10,Associate Degree,Yes,No,No,90.9,30.2,6.3,80.6,73.9,61.5,67.7,Average
+STU-10754,Female,Grade 12,Master's,Yes,No,No,83.6,12.5,8.4,75.8,59.3,46.6,46.7,Needs Improvement
+STU-10755,Male,Grade 12,Associate Degree,Yes,No,Yes,87.1,4.9,7.5,56.2,60.0,41.3,40.2,Needs Improvement
+STU-10756,Male,Grade 12,Associate Degree,Yes,Yes,No,73.5,16.6,7.3,78.0,55.5,44.1,53.4,Needs Improvement
+STU-10757,Male,Grade 11,Master's,Yes,No,Yes,77.4,22.6,7.9,59.9,52.7,39.2,57.2,Needs Improvement
+STU-10758,Male,Grade 10,Bachelor's,Yes,No,Yes,77.1,14.7,6.7,87.7,66.1,48.3,56.8,Needs Improvement
+STU-10759,Male,Grade 11,High School,Yes,No,Yes,94.3,8.1,6.1,56.4,53.3,36.2,44.6,Needs Improvement
+STU-10760,Female,Grade 11,High School,Yes,No,No,77.5,20.2,6.3,68.4,52.1,40.0,50.5,Needs Improvement
+STU-10761,Female,Grade 12,High School,Yes,No,No,100.0,18.3,7.0,62.2,60.8,38.8,56.9,Needs Improvement
+STU-10762,Female,Grade 10,Bachelor's,Yes,No,No,87.2,7.3,5.8,56.2,45.2,29.3,48.4,Needs Improvement
+STU-10763,Male,Grade 11,Associate Degree,Yes,Yes,Yes,66.7,16.5,6.4,80.4,49.7,51.2,56.9,Needs Improvement
+STU-10764,Female,Grade 10,High School,Yes,No,No,80.5,20.5,6.4,77.5,69.2,42.0,53.0,Needs Improvement
+STU-10765,Male,Grade 10,Doctorate,Yes,No,No,74.2,21.7,9.3,86.9,68.6,60.4,64.8,Average
+STU-10766,Male,Grade 12,Bachelor's,Yes,No,Yes,55.7,13.6,4.0,45.1,38.1,42.3,37.6,At Risk
+STU-10767,Male,Grade 11,High School,Yes,Yes,Yes,100.0,11.7,6.8,84.9,81.1,54.2,62.9,Average
+STU-10768,Female,Grade 11,Bachelor's,Yes,No,Yes,90.4,22.0,8.9,99.0,72.0,78.9,79.4,Good
+STU-10769,Male,Grade 11,Bachelor's,Yes,Yes,No,88.4,6.1,7.1,63.7,65.0,49.1,56.5,Needs Improvement
+STU-10770,Female,Grade 11,High School,Yes,Yes,No,84.0,16.9,7.8,96.5,72.2,68.6,73.1,Average
+STU-10771,Male,Grade 12,Associate Degree,No,No,No,65.4,5.1,7.1,66.3,43.6,39.9,45.1,Needs Improvement
+STU-10772,Female,Grade 12,Master's,Yes,Yes,Yes,76.2,20.9,6.3,50.8,58.9,39.6,59.8,Needs Improvement
+STU-10773,Female,Grade 12,Associate Degree,Yes,No,No,92.1,12.3,4.5,65.7,64.7,49.0,54.2,Needs Improvement
+STU-10774,Male,Grade 12,Bachelor's,Yes,Yes,Yes,69.4,22.2,7.2,84.7,60.2,55.7,69.3,Average
+STU-10775,Female,Grade 10,Associate Degree,No,No,Yes,51.6,17.2,6.1,58.3,48.2,26.5,33.7,At Risk
+STU-10776,Female,Grade 12,High School,Yes,Yes,No,79.3,6.0,6.1,61.6,49.4,41.1,51.2,Needs Improvement
+STU-10777,Male,Grade 11,High School,Yes,Yes,Yes,80.3,23.3,6.5,78.3,66.6,46.8,64.5,Average
+STU-10778,Male,Grade 10,Associate Degree,Yes,Yes,No,83.6,24.1,8.9,70.0,40.8,44.1,60.6,Average
+STU-10779,Male,Grade 12,High School,No,Yes,Yes,90.7,19.7,9.6,78.2,56.5,53.8,58.0,Needs Improvement
+STU-10780,Male,Grade 10,High School,Yes,Yes,No,89.7,9.0,7.2,73.3,67.7,44.5,51.8,Needs Improvement
+STU-10781,Male,Grade 12,Master's,Yes,Yes,Yes,85.1,12.0,6.5,76.7,59.6,37.5,51.7,Needs Improvement
+STU-10782,Female,Grade 11,Doctorate,Yes,No,No,96.3,14.9,5.7,63.9,59.4,44.7,56.7,Needs Improvement
+STU-10783,Female,Grade 11,Bachelor's,Yes,Yes,Yes,63.8,9.4,7.5,73.2,44.4,53.2,60.6,Average
+STU-10784,Female,Grade 11,Master's,Yes,No,Yes,88.1,25.0,9.0,57.0,65.2,36.1,52.3,Needs Improvement
+STU-10785,Male,Grade 12,High School,Yes,No,No,89.5,14.9,6.7,88.0,76.5,66.8,69.0,Average
+STU-10786,Male,Grade 11,Doctorate,Yes,No,Yes,67.1,2.0,4.4,61.1,47.3,25.0,44.9,Needs Improvement
+STU-10787,Female,Grade 11,High School,Yes,No,No,64.0,16.2,7.7,85.8,57.3,73.0,59.5,Needs Improvement
+STU-10788,Female,Grade 10,Doctorate,Yes,No,No,73.0,11.7,8.1,66.7,60.3,39.8,57.8,Needs Improvement
+STU-10789,Male,Grade 11,Doctorate,No,Yes,Yes,74.1,13.5,5.3,72.8,70.3,48.6,43.8,Needs Improvement
+STU-10790,Female,Grade 10,Bachelor's,Yes,Yes,Yes,91.0,11.6,7.2,63.1,62.8,25.9,44.7,Needs Improvement
+STU-10791,Male,Grade 12,Doctorate,Yes,No,No,74.6,19.2,7.5,55.8,63.2,40.8,47.4,Needs Improvement
+STU-10792,Male,Grade 11,Bachelor's,Yes,Yes,No,71.7,21.3,6.9,45.6,35.7,38.6,41.4,Needs Improvement
+STU-10793,Male,Grade 12,Associate Degree,Yes,Yes,No,74.7,15.8,6.1,55.2,42.0,38.4,47.6,Needs Improvement
+STU-10794,Female,Grade 10,Associate Degree,Yes,Yes,Yes,95.4,11.8,8.1,65.5,50.2,38.0,53.5,Needs Improvement
+STU-10795,Male,Grade 10,Bachelor's,Yes,Yes,No,82.2,13.7,6.6,73.0,61.8,40.1,58.0,Needs Improvement
+STU-10796,Male,Grade 12,High School,Yes,Yes,Yes,79.8,14.1,5.4,84.1,64.8,63.1,65.5,Average
+STU-10797,Male,Grade 10,Bachelor's,Yes,No,No,80.7,8.8,4.7,63.8,52.6,40.2,43.9,Needs Improvement
+STU-10798,Male,Grade 10,Doctorate,Yes,Yes,No,97.5,17.8,8.4,57.7,60.8,53.9,55.5,Needs Improvement
+STU-10799,Male,Grade 10,High School,Yes,No,Yes,73.0,17.0,7.7,49.8,53.2,32.5,41.8,Needs Improvement
+STU-10800,Male,Grade 12,Bachelor's,Yes,Yes,Yes,97.8,24.0,7.1,76.7,54.1,51.9,62.5,Average
+STU-10801,Female,Grade 12,Master's,No,Yes,Yes,84.5,22.2,6.5,89.4,63.3,67.9,62.7,Average
+STU-10802,Male,Grade 11,Master's,Yes,No,Yes,80.1,9.5,6.4,87.7,71.2,40.5,63.8,Average
+STU-10803,Male,Grade 10,Doctorate,No,Yes,No,100.0,19.3,5.8,79.9,63.7,44.9,69.7,Average
+STU-10804,Female,Grade 11,Bachelor's,Yes,No,Yes,69.3,7.8,6.5,78.9,52.6,56.5,62.1,Average
+STU-10805,Male,Grade 12,Doctorate,No,No,Yes,77.8,18.5,4.7,93.8,75.0,52.4,65.5,Average
+STU-10806,Male,Grade 11,Bachelor's,Yes,Yes,Yes,67.2,10.6,6.2,74.6,46.4,32.3,52.7,Needs Improvement
+STU-10807,Male,Grade 10,High School,Yes,No,No,93.4,7.3,6.7,79.0,62.6,62.4,64.6,Average
+STU-10808,Female,Grade 10,Associate Degree,Yes,Yes,No,100.0,15.8,7.7,65.5,62.1,33.6,51.3,Needs Improvement
+STU-10809,Female,Grade 10,Bachelor's,Yes,No,Yes,100.0,2.0,7.0,50.9,48.4,30.6,47.2,Needs Improvement
+STU-10810,Non-Binary,Grade 11,High School,Yes,Yes,Yes,96.7,2.6,7.9,60.4,61.8,35.2,48.2,Needs Improvement
+STU-10811,Male,Grade 12,Bachelor's,Yes,No,No,79.6,12.8,8.5,69.9,52.5,25.0,51.3,Needs Improvement
+STU-10812,Female,Grade 10,Bachelor's,Yes,Yes,No,77.6,14.5,8.2,70.9,66.3,44.8,57.6,Needs Improvement
+STU-10813,Male,Grade 10,High School,Yes,No,Yes,61.9,11.6,7.5,97.0,64.3,63.3,66.6,Average
+STU-10814,Male,Grade 10,Bachelor's,Yes,No,Yes,100.0,3.7,7.0,71.1,67.2,44.0,55.5,Needs Improvement
+STU-10815,Male,Grade 12,Bachelor's,Yes,No,Yes,87.6,8.7,5.9,86.5,72.1,59.6,56.8,Needs Improvement
+STU-10816,Male,Grade 10,Associate Degree,Yes,No,Yes,76.1,16.5,7.8,63.9,48.1,41.1,54.6,Needs Improvement
+STU-10817,Female,Grade 12,High School,Yes,No,No,97.9,17.8,8.8,65.6,44.9,51.6,49.1,Needs Improvement
+STU-10818,Female,Grade 11,High School,Yes,No,No,70.3,13.9,7.4,51.4,47.2,30.4,43.6,Needs Improvement
+STU-10819,Female,Grade 11,Associate Degree,Yes,Yes,Yes,86.9,21.5,9.1,59.6,53.8,33.3,50.6,Needs Improvement
+STU-10820,Male,Grade 10,Master's,Yes,Yes,No,79.9,16.6,5.3,77.4,64.2,41.3,65.5,Average
+STU-10821,Female,Grade 10,High School,Yes,Yes,Yes,89.7,9.1,5.7,70.1,57.7,31.9,54.7,Needs Improvement
+STU-10822,Female,Grade 11,Bachelor's,Yes,No,No,81.2,12.2,7.9,83.2,60.5,60.5,63.5,Average
+STU-10823,Female,Grade 12,High School,Yes,No,No,64.6,4.9,7.3,72.5,67.8,30.5,45.5,Needs Improvement
+STU-10824,Male,Grade 11,Associate Degree,Yes,No,Yes,82.9,13.3,8.4,65.1,44.6,45.3,51.2,Needs Improvement
+STU-10825,Male,Grade 11,Master's,Yes,Yes,Yes,94.6,21.2,7.0,99.0,80.2,64.0,69.3,Average
+STU-10826,Female,Grade 10,Bachelor's,Yes,No,No,81.6,18.5,6.0,68.7,52.4,47.1,55.1,Needs Improvement
+STU-10827,Female,Grade 12,High School,Yes,Yes,Yes,91.3,23.1,6.8,86.3,65.5,71.1,65.2,Average
+STU-10828,Male,Grade 12,Associate Degree,Yes,Yes,Yes,69.5,12.0,5.3,64.4,48.7,38.5,48.5,Needs Improvement
+STU-10829,Female,Grade 10,High School,Yes,No,Yes,81.7,22.7,5.8,79.9,56.4,61.3,55.4,Needs Improvement
+STU-10830,Female,Grade 12,Associate Degree,Yes,No,No,74.5,12.7,8.1,83.0,65.6,52.9,52.3,Needs Improvement
+STU-10831,Female,Grade 11,Bachelor's,Yes,No,Yes,91.0,23.6,8.0,72.9,70.8,51.9,69.3,Average
+STU-10832,Female,Grade 11,High School,Yes,No,No,82.4,13.9,7.4,37.0,44.0,46.4,44.0,Needs Improvement
+STU-10833,Female,Grade 12,Associate Degree,Yes,Yes,Yes,90.3,18.6,5.1,70.3,60.3,37.4,55.8,Needs Improvement
+STU-10834,Male,Grade 12,Associate Degree,Yes,No,No,95.1,23.6,6.6,87.2,62.4,71.3,70.8,Average
+STU-10835,Female,Grade 11,Master's,Yes,Yes,No,90.3,12.7,5.7,77.4,66.7,54.8,63.3,Average
+STU-10836,Male,Grade 10,Doctorate,No,No,No,85.3,15.4,8.3,76.2,76.2,46.5,60.4,Average
+STU-10837,Female,Grade 10,High School,Yes,No,Yes,70.0,22.4,6.4,45.9,39.2,50.6,40.1,Needs Improvement
+STU-10838,Male,Grade 12,Bachelor's,No,Yes,No,82.0,13.1,5.8,59.9,49.5,25.4,47.7,Needs Improvement
+STU-10839,Male,Grade 10,Associate Degree,Yes,Yes,No,75.6,5.4,7.0,75.8,54.4,40.5,50.3,Needs Improvement
+STU-10840,Female,Grade 11,Associate Degree,Yes,No,Yes,77.9,27.9,6.3,75.7,55.5,47.3,56.0,Needs Improvement
+STU-10841,Male,Grade 11,Bachelor's,Yes,No,Yes,77.5,10.9,8.6,87.0,45.2,57.1,59.5,Needs Improvement
+STU-10842,Female,Grade 11,Master's,Yes,No,Yes,70.2,15.0,6.2,68.0,55.8,36.7,48.0,Needs Improvement
+STU-10843,Male,Grade 11,Doctorate,Yes,Yes,Yes,58.5,21.5,5.5,75.7,47.7,56.9,62.6,Average
+STU-10844,Female,Grade 12,Bachelor's,Yes,Yes,No,74.0,10.0,4.6,70.2,43.8,42.6,49.3,Needs Improvement
+STU-10845,Female,Grade 10,Associate Degree,Yes,No,Yes,84.3,7.4,7.0,56.2,56.1,31.1,44.5,Needs Improvement
+STU-10846,Female,Grade 10,Bachelor's,No,No,Yes,65.8,15.6,6.4,38.4,30.0,32.8,37.5,At Risk
+STU-10847,Non-Binary,Grade 10,Associate Degree,Yes,Yes,No,82.2,2.3,5.4,76.0,57.8,40.9,48.8,Needs Improvement
+STU-10848,Male,Grade 12,Bachelor's,Yes,No,Yes,100.0,12.1,8.3,72.4,73.5,37.8,55.9,Needs Improvement
+STU-10849,Male,Grade 11,Associate Degree,Yes,Yes,Yes,94.3,15.6,7.7,61.3,46.2,64.7,60.4,Average
+STU-10850,Female,Grade 10,Bachelor's,Yes,No,Yes,100.0,12.2,7.0,47.3,39.9,28.8,40.8,Needs Improvement
+STU-10851,Male,Grade 12,High School,Yes,No,No,86.7,4.0,8.5,78.8,64.7,27.8,49.6,Needs Improvement
+STU-10852,Female,Grade 12,High School,Yes,No,No,96.0,24.4,7.7,66.3,67.1,43.1,57.8,Needs Improvement
+STU-10853,Male,Grade 12,Master's,No,Yes,No,73.3,14.7,6.1,77.8,47.7,40.7,58.3,Needs Improvement
+STU-10854,Female,Grade 12,High School,Yes,No,Yes,74.3,23.3,5.9,96.1,71.0,72.3,66.3,Average
+STU-10855,Female,Grade 10,Bachelor's,Yes,Yes,No,49.1,12.3,7.9,40.0,37.3,31.3,31.0,At Risk
+STU-10856,Female,Grade 12,High School,Yes,Yes,Yes,96.2,8.3,7.4,60.2,41.7,40.9,46.6,Needs Improvement
+STU-10857,Female,Grade 11,High School,Yes,No,Yes,100.0,15.7,7.2,67.1,66.1,42.6,49.0,Needs Improvement
+STU-10858,Male,Grade 12,High School,Yes,No,Yes,75.4,12.6,6.1,90.4,71.7,54.4,62.1,Average
+STU-10859,Female,Grade 12,High School,Yes,No,No,79.0,6.3,7.7,47.1,42.7,26.4,29.0,At Risk
+STU-10860,Male,Grade 12,Master's,Yes,No,Yes,73.0,23.6,6.2,97.1,77.0,65.7,83.1,Good
+STU-10861,Female,Grade 11,Associate Degree,Yes,No,Yes,86.6,10.0,6.9,71.9,67.3,51.7,60.9,Average
+STU-10862,Male,Grade 10,Doctorate,Yes,Yes,Yes,95.5,2.0,8.6,68.7,60.9,41.6,56.3,Needs Improvement
+STU-10863,Female,Grade 11,Bachelor's,Yes,Yes,Yes,61.1,22.6,6.3,67.2,46.9,53.4,59.5,Needs Improvement
+STU-10864,Female,Grade 12,Associate Degree,Yes,Yes,No,86.9,10.7,5.3,63.9,48.6,45.0,44.3,Needs Improvement
+STU-10865,Male,Grade 12,Bachelor's,Yes,No,Yes,78.7,10.0,5.8,84.7,63.3,59.2,72.3,Average
+STU-10866,Female,Grade 10,Bachelor's,Yes,No,No,83.4,2.5,8.1,55.0,54.0,33.9,39.8,At Risk
+STU-10867,Female,Grade 10,Bachelor's,Yes,Yes,Yes,87.5,25.3,7.3,74.8,58.8,57.9,64.9,Average
+STU-10868,Male,Grade 10,Associate Degree,Yes,No,No,79.7,5.6,6.9,64.6,38.4,48.1,38.1,At Risk
+STU-10869,Male,Grade 12,Associate Degree,Yes,No,No,80.8,14.4,6.4,59.3,60.3,35.2,48.6,Needs Improvement
+STU-10870,Female,Grade 12,Master's,Yes,No,Yes,79.4,19.9,7.5,99.0,72.3,58.5,65.8,Average
+STU-10871,Female,Grade 10,Master's,Yes,Yes,Yes,93.6,16.7,6.1,75.9,60.6,41.4,62.1,Average
+STU-10872,Male,Grade 11,Master's,Yes,Yes,No,87.0,13.6,7.3,78.6,68.8,52.2,61.7,Average
+STU-10873,Female,Grade 12,Associate Degree,Yes,Yes,No,84.6,2.9,6.2,85.9,76.5,34.0,51.0,Needs Improvement
+STU-10874,Female,Grade 12,Bachelor's,Yes,Yes,Yes,66.7,8.7,6.0,50.1,30.0,36.0,37.1,At Risk
+STU-10875,Female,Grade 11,Associate Degree,Yes,No,Yes,77.5,15.2,6.3,94.5,71.2,59.5,65.8,Average
+STU-10876,Male,Grade 11,Associate Degree,Yes,No,No,92.8,8.9,6.6,34.9,32.5,33.2,29.8,At Risk
+STU-10877,Male,Grade 11,High School,Yes,No,No,82.5,15.3,6.9,59.2,55.4,35.6,41.7,Needs Improvement
+STU-10878,Female,Grade 10,Bachelor's,Yes,No,Yes,89.9,18.4,7.3,63.6,57.0,43.5,56.8,Needs Improvement
+STU-10879,Female,Grade 11,High School,Yes,No,Yes,100.0,20.3,4.0,78.1,70.5,63.1,75.7,Good
+STU-10880,Female,Grade 12,Associate Degree,Yes,Yes,Yes,94.5,6.0,6.1,73.1,58.6,54.6,60.0,Average
+STU-10881,Male,Grade 12,Master's,Yes,No,No,83.1,28.3,6.6,67.7,43.2,47.4,54.0,Needs Improvement
+STU-10882,Female,Grade 11,High School,No,No,Yes,75.9,19.0,8.7,69.8,52.2,50.3,46.8,Needs Improvement
+STU-10883,Female,Grade 12,High School,Yes,Yes,No,51.4,14.0,5.8,56.3,44.9,41.0,41.7,Needs Improvement
+STU-10884,Male,Grade 10,High School,No,Yes,Yes,80.0,21.1,7.2,49.0,53.2,41.5,41.8,Needs Improvement
+STU-10885,Female,Grade 11,Master's,No,No,Yes,78.1,29.4,8.6,80.2,53.0,58.2,66.0,Average
+STU-10886,Male,Grade 10,Bachelor's,No,Yes,No,86.7,4.6,5.6,79.7,70.4,56.6,59.0,Needs Improvement
+STU-10887,Female,Grade 10,Associate Degree,Yes,No,No,80.2,12.5,7.4,92.2,63.2,42.5,62.5,Average
+STU-10888,Female,Grade 12,Master's,Yes,Yes,No,78.2,2.0,6.1,58.9,53.1,30.1,44.2,Needs Improvement
+STU-10889,Female,Grade 12,Master's,Yes,No,Yes,60.6,15.3,6.4,79.7,52.6,55.8,63.5,Average
+STU-10890,Male,Grade 10,Associate Degree,Yes,Yes,No,70.7,16.4,6.1,66.0,53.4,49.0,52.2,Needs Improvement
+STU-10891,Male,Grade 11,Bachelor's,Yes,Yes,No,87.7,13.7,6.2,86.7,73.3,66.0,65.0,Average
+STU-10892,Male,Grade 12,Bachelor's,Yes,No,Yes,100.0,9.7,10.0,84.3,60.6,61.3,74.2,Average
+STU-10893,Female,Grade 10,Bachelor's,Yes,Yes,Yes,80.8,2.0,7.9,73.0,53.6,39.0,43.2,Needs Improvement
+STU-10894,Male,Grade 11,High School,Yes,No,Yes,85.9,16.4,8.2,65.2,57.1,55.3,49.8,Needs Improvement
+STU-10895,Female,Grade 12,Master's,Yes,Yes,Yes,93.4,23.5,7.5,83.5,83.8,53.1,68.6,Average
+STU-10896,Female,Grade 11,Bachelor's,Yes,Yes,No,72.3,10.2,5.2,79.1,53.0,56.6,70.2,Average
+STU-10897,Male,Grade 10,Associate Degree,Yes,Yes,Yes,86.4,16.9,7.4,60.4,67.8,57.0,65.5,Average
+STU-10898,Female,Grade 11,Associate Degree,Yes,Yes,No,73.1,3.8,8.2,51.4,59.5,40.1,49.9,Needs Improvement
+STU-10899,Female,Grade 12,High School,Yes,No,Yes,92.4,17.0,6.1,66.0,57.3,46.5,50.8,Needs Improvement
+STU-10900,Female,Grade 11,High School,Yes,Yes,No,83.8,11.4,8.1,91.2,66.1,53.8,73.5,Average
+STU-10901,Female,Grade 10,Bachelor's,Yes,No,Yes,85.6,9.0,7.8,86.1,61.3,40.1,58.7,Needs Improvement
+STU-10902,Female,Grade 12,High School,No,Yes,Yes,72.6,9.1,9.0,54.4,46.3,37.4,43.0,Needs Improvement
+STU-10903,Male,Grade 10,Associate Degree,Yes,Yes,Yes,90.5,11.4,6.5,53.7,41.4,26.9,44.5,Needs Improvement
+STU-10904,Female,Grade 12,Bachelor's,Yes,No,Yes,100.0,16.5,5.8,87.8,70.4,51.0,65.6,Average
+STU-10905,Male,Grade 10,High School,Yes,Yes,No,69.9,5.5,6.6,54.1,56.4,25.0,37.2,At Risk
+STU-10906,Male,Grade 12,Doctorate,Yes,No,Yes,77.9,11.4,8.6,77.1,55.3,45.0,55.8,Needs Improvement
+STU-10907,Female,Grade 11,High School,Yes,Yes,No,84.8,13.7,5.0,61.4,51.9,41.1,51.9,Needs Improvement
+STU-10908,Female,Grade 10,Associate Degree,Yes,No,Yes,91.4,6.9,4.7,92.6,59.1,56.9,63.7,Average
+STU-10909,Female,Grade 10,Associate Degree,Yes,No,Yes,75.3,25.7,7.1,59.2,52.5,41.9,49.7,Needs Improvement
+STU-10910,Male,Grade 10,High School,Yes,No,Yes,48.0,8.5,6.5,86.0,57.8,60.5,59.6,Needs Improvement
+STU-10911,Female,Grade 12,High School,Yes,No,No,98.3,9.6,7.0,72.6,63.3,43.5,39.6,At Risk
+STU-10912,Male,Grade 12,Bachelor's,Yes,No,No,91.1,7.6,8.0,73.5,59.8,38.3,55.1,Needs Improvement
+STU-10913,Female,Grade 11,Doctorate,No,Yes,Yes,61.1,25.7,6.4,42.4,35.6,39.3,46.1,Needs Improvement
+STU-10914,Male,Grade 11,High School,No,Yes,Yes,74.7,17.6,4.9,39.2,43.3,46.9,44.0,Needs Improvement
+STU-10915,Female,Grade 12,Bachelor's,Yes,No,Yes,100.0,7.9,9.2,66.9,60.2,43.8,53.4,Needs Improvement
+STU-10916,Female,Grade 12,Bachelor's,Yes,Yes,No,99.4,21.2,5.9,73.5,65.8,49.2,65.1,Average
+STU-10917,Male,Grade 11,Master's,Yes,No,No,93.3,15.3,5.8,54.2,53.8,26.0,51.4,Needs Improvement
+STU-10918,Male,Grade 11,Associate Degree,Yes,No,Yes,79.9,15.7,8.2,54.8,56.8,37.0,52.0,Needs Improvement
+STU-10919,Female,Grade 11,Associate Degree,Yes,Yes,No,83.0,11.8,6.6,77.9,66.1,51.2,57.8,Needs Improvement
+STU-10920,Male,Grade 12,Associate Degree,No,No,Yes,80.4,9.1,6.9,77.9,62.0,44.7,51.0,Needs Improvement
+STU-10921,Female,Grade 10,Bachelor's,Yes,No,No,95.5,16.2,7.5,68.1,70.5,33.0,61.6,Average
+STU-10922,Male,Grade 11,Master's,Yes,No,Yes,71.5,10.5,8.2,80.9,62.7,43.5,46.5,Needs Improvement
+STU-10923,Male,Grade 11,High School,Yes,No,No,72.3,25.8,6.6,53.6,55.5,55.3,46.8,Needs Improvement
+STU-10924,Female,Grade 12,Associate Degree,No,Yes,Yes,94.1,5.7,8.7,65.0,62.2,50.4,57.5,Needs Improvement
+STU-10925,Female,Grade 10,Master's,Yes,Yes,No,81.5,24.0,4.7,93.1,55.7,57.3,75.9,Good
+STU-10926,Female,Grade 11,Master's,Yes,No,No,98.5,13.3,7.8,71.0,71.2,51.7,63.4,Average
+STU-10927,Male,Grade 11,Doctorate,Yes,Yes,No,73.9,15.9,6.1,71.8,56.8,38.8,54.8,Needs Improvement
+STU-10928,Male,Grade 11,Bachelor's,Yes,No,No,81.3,19.4,8.5,99.0,71.1,76.4,70.0,Average
+STU-10929,Female,Grade 10,Associate Degree,Yes,No,No,70.9,9.9,7.2,50.4,46.3,35.1,36.5,At Risk
+STU-10930,Female,Grade 11,Bachelor's,No,No,Yes,82.1,19.6,6.3,81.2,60.4,63.0,67.4,Average
+STU-10931,Male,Grade 11,Bachelor's,Yes,Yes,Yes,64.3,2.0,7.7,93.3,65.6,38.7,53.5,Needs Improvement
+STU-10932,Non-Binary,Grade 11,High School,Yes,No,Yes,76.1,9.3,8.0,65.5,49.2,46.6,46.9,Needs Improvement
+STU-10933,Male,Grade 11,Bachelor's,Yes,No,No,64.8,8.0,7.7,82.0,67.4,49.4,51.7,Needs Improvement
+STU-10934,Female,Grade 12,Bachelor's,Yes,No,Yes,90.3,5.9,5.9,56.3,51.7,41.0,50.4,Needs Improvement
+STU-10935,Female,Grade 12,High School,Yes,No,No,90.6,12.6,6.5,60.4,52.0,47.5,46.2,Needs Improvement
+STU-10936,Female,Grade 10,Bachelor's,Yes,No,No,61.2,16.5,7.0,75.4,47.7,51.1,53.0,Needs Improvement
+STU-10937,Male,Grade 12,Bachelor's,Yes,No,Yes,98.0,18.6,7.0,81.2,68.9,50.1,56.1,Needs Improvement
+STU-10938,Female,Grade 11,Doctorate,Yes,No,Yes,100.0,15.6,7.8,85.7,71.2,62.0,63.1,Average
+STU-10939,Male,Grade 10,High School,Yes,No,Yes,82.6,9.7,4.8,92.0,71.0,55.5,60.6,Average
+STU-10940,Female,Grade 10,Associate Degree,Yes,Yes,Yes,74.3,16.4,7.4,69.1,47.4,40.0,45.6,Needs Improvement
+STU-10941,Male,Grade 10,Bachelor's,No,No,Yes,100.0,14.8,6.7,86.7,59.1,48.5,69.2,Average
+STU-10942,Male,Grade 12,Associate Degree,Yes,No,Yes,66.2,20.1,6.1,65.2,54.9,35.1,37.8,At Risk
+STU-10943,Male,Grade 12,Bachelor's,Yes,No,No,82.2,19.1,6.2,82.6,73.9,51.9,59.1,Needs Improvement
+STU-10944,Female,Grade 12,Bachelor's,Yes,No,No,84.2,14.2,6.8,72.9,52.0,56.7,57.6,Needs Improvement
+STU-10945,Female,Grade 11,High School,Yes,No,Yes,98.1,8.2,4.0,76.2,75.7,47.8,54.4,Needs Improvement
+STU-10946,Female,Grade 11,Bachelor's,Yes,No,Yes,86.3,9.8,6.2,75.9,63.2,42.9,50.0,Needs Improvement
+STU-10947,Male,Grade 10,Bachelor's,Yes,No,Yes,76.0,10.4,6.0,47.5,44.2,38.3,37.0,At Risk
+STU-10948,Male,Grade 10,Associate Degree,Yes,No,No,70.6,12.0,7.6,54.3,43.4,29.8,34.9,At Risk
+STU-10949,Male,Grade 11,Master's,Yes,No,No,77.9,15.7,6.1,71.4,47.0,48.7,54.1,Needs Improvement
+STU-10950,Male,Grade 10,Master's,Yes,No,Yes,69.9,18.6,6.8,46.4,49.0,34.3,52.2,Needs Improvement
+STU-10951,Male,Grade 10,Bachelor's,Yes,Yes,Yes,82.6,13.7,8.7,81.6,57.7,58.6,63.8,Average
+STU-10952,Female,Grade 11,Bachelor's,No,No,No,75.2,14.1,8.1,82.2,55.9,40.3,57.0,Needs Improvement
+STU-10953,Male,Grade 12,Associate Degree,Yes,No,No,64.1,14.9,8.0,74.6,61.6,42.4,53.1,Needs Improvement
+STU-10954,Female,Grade 12,Master's,Yes,No,Yes,97.1,10.6,6.5,54.3,40.2,25.0,49.6,Needs Improvement
+STU-10955,Female,Grade 12,Bachelor's,Yes,No,No,76.0,8.0,7.6,89.3,54.5,51.4,45.9,Needs Improvement
+STU-10956,Male,Grade 11,Bachelor's,No,No,Yes,66.8,2.6,6.7,98.5,67.2,65.3,58.3,Needs Improvement
+STU-10957,Female,Grade 11,Master's,Yes,No,Yes,80.0,9.5,6.8,72.1,59.7,40.8,59.2,Needs Improvement
+STU-10958,Female,Grade 11,Associate Degree,Yes,Yes,No,82.8,17.1,7.5,77.1,64.3,47.7,56.8,Needs Improvement
+STU-10959,Male,Grade 12,Master's,Yes,No,No,61.0,9.4,6.3,72.8,50.8,52.2,60.5,Average
+STU-10960,Female,Grade 10,High School,Yes,No,Yes,86.0,12.5,8.6,77.4,79.6,58.0,65.5,Average
+STU-10961,Male,Grade 11,Associate Degree,Yes,Yes,No,69.4,17.0,6.8,68.3,51.3,46.2,50.6,Needs Improvement
+STU-10962,Female,Grade 12,Associate Degree,Yes,Yes,Yes,100.0,17.4,7.7,69.5,60.1,53.3,58.6,Needs Improvement
+STU-10963,Female,Grade 11,Doctorate,Yes,No,No,88.3,7.0,8.6,82.7,59.6,40.7,53.7,Needs Improvement
+STU-10964,Female,Grade 11,Master's,Yes,No,Yes,77.2,20.5,8.1,99.0,71.2,76.7,72.4,Average
+STU-10965,Female,Grade 11,Bachelor's,Yes,Yes,No,73.1,21.3,5.5,50.4,49.2,56.6,47.3,Needs Improvement
+STU-10966,Male,Grade 10,Bachelor's,Yes,No,No,80.7,6.7,7.5,68.5,64.5,45.5,53.6,Needs Improvement
+STU-10967,Female,Grade 11,Bachelor's,Yes,No,Yes,89.4,8.6,7.9,53.5,40.5,25.0,34.5,At Risk
+STU-10968,Male,Grade 10,Master's,Yes,No,No,81.7,21.7,8.0,92.3,66.5,58.2,71.6,Average
+STU-10969,Female,Grade 10,Associate Degree,Yes,No,No,79.4,13.0,5.8,61.8,55.5,46.0,51.7,Needs Improvement
+STU-10970,Male,Grade 10,Associate Degree,No,No,No,82.7,2.0,6.3,49.8,51.3,25.1,25.4,At Risk
+STU-10971,Male,Grade 12,High School,Yes,No,Yes,74.8,4.9,8.1,78.9,59.7,56.3,59.8,Needs Improvement
+STU-10972,Male,Grade 10,Bachelor's,Yes,No,No,77.9,12.4,6.2,94.4,72.0,63.4,68.9,Average
+STU-10973,Female,Grade 11,Bachelor's,Yes,No,No,57.0,6.4,6.7,79.3,49.4,41.5,52.0,Needs Improvement
+STU-10974,Female,Grade 10,Associate Degree,Yes,Yes,Yes,93.7,11.3,8.7,72.9,72.7,46.6,55.2,Needs Improvement
+STU-10975,Female,Grade 12,High School,No,No,No,85.6,14.2,6.9,75.7,67.9,42.3,52.8,Needs Improvement
+STU-10976,Male,Grade 10,Master's,Yes,Yes,Yes,72.7,23.5,6.2,89.8,55.1,60.9,74.3,Average
+STU-10977,Female,Grade 11,High School,Yes,Yes,Yes,100.0,12.1,6.0,57.8,48.4,34.0,47.4,Needs Improvement
+STU-10978,Male,Grade 12,Bachelor's,Yes,Yes,Yes,83.0,21.0,7.4,68.4,49.3,58.6,69.6,Average
+STU-10979,Male,Grade 12,Doctorate,Yes,Yes,No,69.6,23.3,5.5,63.7,55.4,64.8,62.6,Average
+STU-10980,Female,Grade 10,Associate Degree,Yes,No,No,92.3,23.3,6.7,53.6,42.7,30.8,51.3,Needs Improvement
+STU-10981,Male,Grade 12,High School,Yes,Yes,Yes,86.8,15.9,7.4,65.4,53.8,29.3,49.9,Needs Improvement
+STU-10982,Female,Grade 11,Bachelor's,Yes,No,No,86.7,2.0,8.4,85.5,69.3,46.2,59.9,Needs Improvement
+STU-10983,Female,Grade 11,Master's,Yes,No,Yes,76.9,17.0,7.7,77.9,59.2,40.0,49.1,Needs Improvement
+STU-10984,Male,Grade 10,Bachelor's,Yes,No,Yes,87.4,20.8,6.2,79.0,64.9,55.3,64.5,Average
+STU-10985,Male,Grade 10,Doctorate,No,Yes,Yes,78.9,13.5,8.3,72.1,49.9,53.1,53.2,Needs Improvement
+STU-10986,Male,Grade 12,High School,Yes,No,No,88.7,25.3,6.7,77.3,66.8,68.4,60.7,Average
+STU-10987,Female,Grade 11,Bachelor's,Yes,No,No,59.1,19.6,5.6,58.8,41.1,44.7,54.2,Needs Improvement
+STU-10988,Female,Grade 11,Bachelor's,Yes,No,No,76.8,17.7,6.8,65.7,51.3,44.3,50.8,Needs Improvement
+STU-10989,Male,Grade 12,Master's,Yes,No,No,100.0,21.1,8.6,72.7,65.0,35.8,54.9,Needs Improvement
+STU-10990,Male,Grade 12,High School,Yes,No,Yes,72.8,16.2,7.2,73.9,57.3,49.8,50.7,Needs Improvement
+STU-10991,Male,Grade 10,Master's,Yes,No,Yes,74.8,2.0,7.0,74.5,57.6,42.6,45.4,Needs Improvement
+STU-10992,Female,Grade 11,Bachelor's,Yes,Yes,Yes,76.6,10.8,8.8,68.1,49.5,48.5,60.3,Average
+STU-10993,Male,Grade 10,Associate Degree,Yes,No,Yes,67.4,21.8,5.4,64.7,48.5,41.9,45.6,Needs Improvement
+STU-10994,Female,Grade 12,High School,Yes,Yes,Yes,55.5,8.8,5.6,99.0,64.5,55.8,62.5,Average
+STU-10995,Female,Grade 11,Master's,Yes,No,No,79.2,12.5,5.2,82.7,53.1,40.5,62.8,Average
+STU-10996,Male,Grade 12,High School,Yes,Yes,Yes,83.6,7.2,7.4,75.8,57.2,27.3,46.4,Needs Improvement
+STU-10997,Female,Grade 10,Associate Degree,Yes,Yes,No,81.4,25.6,7.2,66.7,58.0,41.9,58.6,Needs Improvement
+STU-10998,Male,Grade 10,Associate Degree,Yes,No,Yes,80.3,24.9,8.7,63.7,44.6,36.2,44.9,Needs Improvement
+STU-10999,Female,Grade 10,Master's,Yes,No,Yes,82.5,8.3,7.3,68.2,64.5,44.8,64.6,Average
