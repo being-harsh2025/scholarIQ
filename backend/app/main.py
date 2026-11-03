@@ -134,14 +134,16 @@ def init_seed_data(db: Session):
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup: create tables and seed default users
-    Base.metadata.create_all(bind=engine)
-    db = SessionLocal()
     try:
-        init_seed_data(db)
-    finally:
-        db.close()
+        Base.metadata.create_all(bind=engine)
+        db = SessionLocal()
+        try:
+            init_seed_data(db)
+        finally:
+            db.close()
+    except Exception as e:
+        print(f"Notice: Lifespan DB init encountered: {e}")
     yield
-    # Shutdown logic if needed
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -153,21 +155,26 @@ app = FastAPI(
 # CORS Middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all for development and local testing
+    allow_origins=["*"],
+    allow_origin_regex=r"https://.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount API routers
+# Mount API routers (both at /api and root level for zero configuration mismatch)
 app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(api_router)
 
 # Direct health endpoint
 @app.get("/api/health")
+@app.get("/health")
 def root_health():
     db = SessionLocal()
     try:
         return check_health(db)
+    except Exception as e:
+        return {"status": "degraded", "error": str(e)}
     finally:
         db.close()
 
