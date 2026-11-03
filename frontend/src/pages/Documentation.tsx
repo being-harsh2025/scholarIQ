@@ -152,11 +152,11 @@ export const Documentation: React.FC = () => {
       {/* Machine Learning Methodology & Leakage Prevention */}
       <Card
         title="Machine Learning Methodology & Data Leakage Prevention"
-        subtitle="Technical principles underpinning the EduPredict AI modeling pipeline"
+        subtitle="Technical principles underpinning the ScholarIQ modeling pipeline"
       >
         <div className="space-y-3 text-xs leading-relaxed text-slate-700">
           <p>
-            EduPredict AI enforces rigorous machine learning engineering standards to prevent statistical artifacts and data leakage:
+            ScholarIQ enforces rigorous machine learning engineering standards to prevent statistical artifacts and data leakage:
           </p>
           
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">

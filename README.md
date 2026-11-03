@@ -1,4 +1,4 @@
-# EduPredict AI — Student Academic Performance Prediction System
+# ScholarIQ — Student Academic Performance Prediction System
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688.svg)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/Frontend-React_18_TypeScript-61DAFB.svg)](https://react.dev)
@@ -6,7 +6,7 @@
 [![Alembic](https://img.shields.io/badge/DB-Alembic_Migrations-green.svg)](https://alembic.sqlalchemy.org)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An end-to-end, production-oriented full-stack web application for educational institutions, faculty, and academic advisors. **EduPredict AI** delivers genuine data-driven academic forecasting, exploratory cohort analytics, statistical feature selection, regression and classification model training, single-student inference with intervention recommendations, and high-throughput batch predictions.
+An end-to-end, production-oriented full-stack web application for educational institutions, faculty, and academic advisors. **ScholarIQ** delivers genuine data-driven academic forecasting, exploratory cohort analytics, statistical feature selection, regression and classification model training, single-student inference with intervention recommendations, and high-throughput batch predictions.
 
 ---
 
@@ -217,7 +217,7 @@ This orchestrates:
 ## Methodological & Ethical AI Principles
 
 1. **Decision Support Only**:
-   EduPredict AI outputs are decision-support insights intended to assist educators and advisors in identifying students who benefit from proactive support. Models do not assign official course grades, determine disciplinary actions, or evaluate scholarship eligibility.
+   ScholarIQ outputs are decision-support insights intended to assist educators and advisors in identifying students who benefit from proactive support. Models do not assign official course grades, determine disciplinary actions, or evaluate scholarship eligibility.
 2. **Strict Data Leakage Prevention**:
    Prediction targets and student identifiers are strictly excluded from feature inputs. Preprocessing transformations (imputation, scaling, encoding) are encapsulated within Scikit-Learn Pipelines fitted exclusively on training splits.
 3. **Student Privacy Isolation**:

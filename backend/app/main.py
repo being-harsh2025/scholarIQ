@@ -37,6 +37,27 @@ def init_seed_data(db: Session):
             "full_name": "Aria Montgomery",
             "role": "student",
             "student_id": "STU-10001"
+        },
+        {
+            "email": "teacher@scholariq.ai",
+            "password": "TeacherPass123!",
+            "full_name": "Prof. Marcus Thorne",
+            "role": "teacher",
+            "student_id": None
+        },
+        {
+            "email": "admin@scholariq.ai",
+            "password": "AdminPass123!",
+            "full_name": "Dr. Eleanor Vance (Dean)",
+            "role": "admin",
+            "student_id": None
+        },
+        {
+            "email": "student@scholariq.ai",
+            "password": "StudentPass123!",
+            "full_name": "Aria Montgomery",
+            "role": "student",
+            "student_id": "STU-10001"
         }
     ]
 

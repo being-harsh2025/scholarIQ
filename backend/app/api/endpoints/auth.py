@@ -64,21 +64,21 @@ def get_demo_users():
     return [
         {
             "role": "admin",
-            "email": "admin@edupredict.ai",
+            "email": "admin@scholariq.ai",
             "password": "AdminPass123!",
             "label": "Administrator",
             "description": "Full access to user management, system health, all datasets and model training"
         },
         {
             "role": "teacher",
-            "email": "teacher@edupredict.ai",
+            "email": "teacher@scholariq.ai",
             "password": "TeacherPass123!",
             "label": "Faculty / Teacher",
             "description": "Upload datasets, perform EDA, train models, generate single & batch predictions"
         },
         {
             "role": "student",
-            "email": "student@edupredict.ai",
+            "email": "student@scholariq.ai",
             "password": "StudentPass123!",
             "student_id": "STU-10001",
             "label": "Student (STU-10001)",

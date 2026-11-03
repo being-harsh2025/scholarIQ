@@ -3,18 +3,18 @@ version: '3.8'
 services:
   db:
     image: postgres:16-alpine
-    container_name: edupredict-db
+    container_name: scholariq-db
     environment:
-      POSTGRES_USER: edupredict_user
-      POSTGRES_PASSWORD: edupredict_secure_password
-      POSTGRES_DB: edupredict_db
+      POSTGRES_USER: scholariq_user
+      POSTGRES_PASSWORD: scholariq_secure_password
+      POSTGRES_DB: scholariq_db
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U edupredict_user -d edupredict_db"]
+      test: ["CMD-SHELL", "pg_isready -U scholariq_user -d scholariq_db"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -23,10 +23,10 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.backend
-    container_name: edupredict-backend
+    container_name: scholariq-backend
     environment:
-      DATABASE_URL: postgresql://edupredict_user:edupredict_secure_password@db:5432/edupredict_db
-      SECRET_KEY: ${SECRET_KEY:-edupredict-super-secret-production-key-2026}
+      DATABASE_URL: postgresql://scholariq_user:scholariq_secure_password@db:5432/scholariq_db
+      SECRET_KEY: ${SECRET_KEY:-scholariq-super-secret-production-key-2026}
     volumes:
       - backend_artifacts:/app/artifacts
       - ./data/sample:/app/data/sample
@@ -41,7 +41,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.frontend
-    container_name: edupredict-frontend
+    container_name: scholariq-frontend
     ports:
       - "80:80"
     depends_on:

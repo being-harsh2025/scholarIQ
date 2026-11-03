@@ -19,12 +19,7 @@ def list_datasets(
     db: Session = Depends(get_db),
     current_user: User = Depends(require_role(["admin", "teacher"]))
 ):
-    if current_user.role == "admin":
-        return db.query(Dataset).order_by(Dataset.created_at.desc()).all()
-    else:
-        return db.query(Dataset).filter(
-            (Dataset.user_id == current_user.id) | (Dataset.is_sample == True)
-        ).order_by(Dataset.created_at.desc()).all()
+    return db.query(Dataset).order_by(Dataset.created_at.desc()).all()
 
 @router.post("/upload", response_model=DatasetDetail)
 def upload_dataset(

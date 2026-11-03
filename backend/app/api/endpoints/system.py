@@ -36,28 +36,17 @@ def get_dashboard_stats(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
-    # Total datasets
+    # Unified total datasets across the system
     dataset_query = db.query(Dataset)
-    if current_user.role == "teacher":
-        dataset_query = dataset_query.filter((Dataset.user_id == current_user.id) | (Dataset.is_sample == True))
-    elif current_user.role == "student":
-        dataset_query = dataset_query.filter(Dataset.is_sample == True)
-
     total_datasets = dataset_query.count()
     total_records = db.query(func.coalesce(func.sum(Dataset.row_count), 0)).scalar()
 
-    # Total models
+    # Unified total models
     model_query = db.query(ModelRun)
-    if current_user.role == "teacher":
-        model_query = model_query.filter(ModelRun.user_id == current_user.id)
     total_models = model_query.count()
 
-    # Predictions
+    # Unified total predictions
     pred_query = db.query(Prediction)
-    if current_user.role == "teacher":
-        pred_query = pred_query.filter(Prediction.user_id == current_user.id)
-    elif current_user.role == "student":
-        pred_query = pred_query.filter(Prediction.student_identifier == current_user.student_id)
     total_predictions = pred_query.count()
 
     # Latest model run

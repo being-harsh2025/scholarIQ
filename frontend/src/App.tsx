@@ -15,7 +15,6 @@ import { SinglePrediction } from './pages/SinglePrediction';
 import { BatchPrediction } from './pages/BatchPrediction';
 import { ModelRegistry } from './pages/ModelRegistry';
 import { PredictionHistory } from './pages/PredictionHistory';
-import { StudentPortal } from './pages/StudentPortal';
 import { Documentation } from './pages/Documentation';
 
 export const App: React.FC = () => {
@@ -38,7 +37,7 @@ export const App: React.FC = () => {
             <Route path="/predict-batch" element={<BatchPrediction />} />
             <Route path="/models" element={<ModelRegistry />} />
             <Route path="/history" element={<PredictionHistory />} />
-            <Route path="/student-portal" element={<StudentPortal />} />
+            <Route path="/student-portal" element={<Navigate to="/dashboard" replace />} />
             <Route path="/docs" element={<Documentation />} />
           </Route>
 

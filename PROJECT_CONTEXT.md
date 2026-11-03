@@ -1,7 +1,7 @@
-# PROJECT_CONTEXT.md — EduPredict AI
+# PROJECT_CONTEXT.md — ScholarIQ
 
 ## Project Overview
-**EduPredict AI — Student Academic Performance Prediction System** is an end-to-end, full-stack, production-oriented machine learning web application. It enables educational institutions, administrators, teachers, and students to analyze academic indicators, explore datasets, select optimal features, train and compare regression and classification models, generate single-student and batch predictions with actionable recommendations, and maintain an auditable prediction history.
+**ScholarIQ — Student Academic Performance Prediction System** is an end-to-end, full-stack, production-oriented machine learning web application. It enables educational institutions, administrators, teachers, and students to analyze academic indicators, explore datasets, select optimal features, train and compare regression and classification models, generate single-student and batch predictions with actionable recommendations, and maintain an auditable prediction history.
 
 ## Technical Architecture
 

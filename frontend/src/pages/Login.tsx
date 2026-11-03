@@ -2,14 +2,13 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { Card, Button, Alert } from '../components/ui';
-import { GraduationCap, Eye, EyeOff, ShieldCheck, User, BookOpen } from 'lucide-react';
-import { UserRole } from '../types';
+import { GraduationCap, Eye, EyeOff, ShieldCheck } from 'lucide-react';
 
 export const Login: React.FC = () => {
   const navigate = useNavigate();
   const { login } = useAuth();
-  
-  const [email, setEmail] = useState('teacher@edupredict.ai');
+
+  const [email, setEmail] = useState('teacher@scholariq.ai');
   const [password, setPassword] = useState('TeacherPass123!');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -24,24 +23,22 @@ export const Login: React.FC = () => {
       await login(email, password);
       navigate('/dashboard');
     } catch (err: any) {
-      setError(err.response?.data?.detail || 'Failed to authenticate. Please check your credentials.');
+      if (!err.response || err.response.status >= 500) {
+        setError('Cannot reach backend server at http://127.0.0.1:8000. Please ensure the Python FastAPI backend is running.');
+      } else if (err.response.status === 401) {
+        setError(typeof err.response?.data?.detail === 'string' ? err.response.data.detail : 'Incorrect email or password. Please verify your credentials.');
+      } else {
+        setError(typeof err.response?.data?.detail === 'string' ? err.response.data.detail : 'An error occurred during authentication. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
   };
 
-  const fillDemo = (role: UserRole) => {
+  const fillDemo = () => {
     setError(null);
-    if (role === 'admin') {
-      setEmail('admin@edupredict.ai');
-      setPassword('AdminPass123!');
-    } else if (role === 'teacher') {
-      setEmail('teacher@edupredict.ai');
-      setPassword('TeacherPass123!');
-    } else {
-      setEmail('student@edupredict.ai');
-      setPassword('StudentPass123!');
-    }
+    setEmail('teacher@scholariq.ai');
+    setPassword('TeacherPass123!');
   };
 
   return (
@@ -53,7 +50,7 @@ export const Login: React.FC = () => {
             <GraduationCap className="w-7 h-7" />
           </div>
           <h1 className="text-2xl font-bold text-slate-900 tracking-tight">
-            EduPredict <span className="text-brand-600">AI</span>
+            Scholar<span className="text-brand-600">IQ</span>
           </h1>
           <p className="text-xs text-slate-500 mt-1">
             Student Academic Performance Prediction & Decision Support System
@@ -112,49 +109,23 @@ export const Login: React.FC = () => {
               loading={loading}
               className="w-full font-semibold"
             >
-              Sign In to EduPredict
+              Sign In to ScholarIQ
             </Button>
           </form>
 
-          {/* Quick Demo Personas */}
+          {/* Unified Demo Login */}
           <div className="mt-6 pt-5 border-t border-slate-200">
-            <div className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mb-2 text-center">
-              Quick One-Click Demo Credentials
-            </div>
-            <div className="grid grid-cols-3 gap-2">
-              <button
-                type="button"
-                onClick={() => fillDemo('admin')}
-                className="p-2 border border-slate-200 hover:border-brand-500 hover:bg-brand-50 rounded-lg text-left transition-colors"
-              >
-                <div className="flex items-center gap-1.5 text-rose-700 font-semibold text-[11px]">
-                  <ShieldCheck className="w-3.5 h-3.5" /> Admin
-                </div>
-                <div className="text-[10px] text-slate-500 truncate">Dean Vance</div>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => fillDemo('teacher')}
-                className="p-2 border border-slate-200 hover:border-brand-500 hover:bg-brand-50 rounded-lg text-left transition-colors"
-              >
-                <div className="flex items-center gap-1.5 text-brand-700 font-semibold text-[11px]">
-                  <BookOpen className="w-3.5 h-3.5" /> Faculty
-                </div>
-                <div className="text-[10px] text-slate-500 truncate">Prof. Thorne</div>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => fillDemo('student')}
-                className="p-2 border border-slate-200 hover:border-brand-500 hover:bg-brand-50 rounded-lg text-left transition-colors"
-              >
-                <div className="flex items-center gap-1.5 text-emerald-700 font-semibold text-[11px]">
-                  <User className="w-3.5 h-3.5" /> Student
-                </div>
-                <div className="text-[10px] text-slate-500 truncate">STU-10001</div>
-              </button>
-            </div>
+            <button
+              type="button"
+              onClick={fillDemo}
+              className="w-full py-2.5 px-3 border border-brand-200 bg-brand-50/60 hover:bg-brand-50 hover:border-brand-400 rounded-lg text-center transition-colors flex items-center justify-center gap-2 text-xs font-semibold text-brand-700"
+            >
+              <ShieldCheck className="w-4 h-4 text-brand-600" />
+              <span>Fill Quick Demo Credentials (Unified Access)</span>
+            </button>
+            <p className="text-[11px] text-slate-400 text-center mt-2">
+              Provides full access to all academic analytics, student insights & ML models.
+            </p>
           </div>
         </Card>
       </div>

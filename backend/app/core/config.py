@@ -6,9 +6,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 WORKSPACE_DIR = BASE_DIR.parent
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "EduPredict AI"
+    PROJECT_NAME: str = "ScholarIQ"
     API_V1_STR: str = "/api"
-    SECRET_KEY: str = "edupredict-ai-super-secret-production-key-2026-safe-default"
+    SECRET_KEY: str = "scholariq-super-secret-production-key-2026-safe-default"
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 24 hours
     

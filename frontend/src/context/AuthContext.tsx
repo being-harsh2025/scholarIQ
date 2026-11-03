@@ -57,9 +57,9 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   const switchRoleQuick = async (targetRole: UserRole) => {
     const demoCredentials: Record<UserRole, { email: string; pass: string }> = {
-      admin: { email: 'admin@edupredict.ai', pass: 'AdminPass123!' },
-      teacher: { email: 'teacher@edupredict.ai', pass: 'TeacherPass123!' },
-      student: { email: 'student@edupredict.ai', pass: 'StudentPass123!' }
+      admin: { email: 'admin@scholariq.ai', pass: 'AdminPass123!' },
+      teacher: { email: 'teacher@scholariq.ai', pass: 'TeacherPass123!' },
+      student: { email: 'student@scholariq.ai', pass: 'StudentPass123!' }
     };
 
     const target = demoCredentials[targetRole];

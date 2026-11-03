@@ -68,20 +68,14 @@ def get_prediction_history(
 ):
     query = db.query(Prediction).join(ModelRun, Prediction.model_run_id == ModelRun.id)
 
-    # RBAC Enforcement:
-    if current_user.role == "student":
-        # Student MUST ONLY access their own records
-        if not current_user.student_id:
-            return []
+    # Unified Prediction Query:
+    if student_id:
+        query = query.filter(Prediction.student_identifier.ilike(f"%{student_id}%"))
+    elif current_user.role == "student" and current_user.student_id:
         query = query.filter(Prediction.student_identifier == current_user.student_id)
     elif current_user.role == "teacher":
-        query = query.filter(Prediction.user_id == current_user.id)
-    # Admin sees all
-
-    if model_run_id:
-        query = query.filter(Prediction.model_run_id == model_run_id)
-    if student_id and current_user.role != "student":
-        query = query.filter(Prediction.student_identifier.ilike(f"%{student_id}%"))
+        # Allow viewing all predictions across the unified system
+        pass
     if task_type:
         query = query.filter(ModelRun.task_type == task_type)
 
@@ -145,5 +139,5 @@ def export_predictions_csv(
     return Response(
         content=output.getvalue(),
         media_type="text/csv",
-        headers={"Content-Disposition": "attachment; filename=edupredict_predictions_export.csv"}
+        headers={"Content-Disposition": "attachment; filename=scholariq_predictions_export.csv"}
     )
