@@ -5,7 +5,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
-from app.core.config import settings
+from app.core.config import settings, IS_SERVERLESS
 from app.db.session import engine, Base, SessionLocal
 from app.models.entities import User, Dataset, DatasetColumn
 from app.core.security import hash_password
@@ -131,9 +131,12 @@ def init_seed_data(db: Session):
                 db.rollback()
                 print(f"Failed to auto-seed sample dataset: {e}")
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    # Startup: create tables and seed default users
+_db_initialized = False
+
+def ensure_db_initialized():
+    global _db_initialized
+    if _db_initialized:
+        return
     try:
         Base.metadata.create_all(bind=engine)
         db = SessionLocal()
@@ -141,15 +144,21 @@ async def lifespan(app: FastAPI):
             init_seed_data(db)
         finally:
             db.close()
+        _db_initialized = True
     except Exception as e:
-        print(f"Notice: Lifespan DB init encountered: {e}")
+        print(f"Notice: Database initialization: {e}")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: create tables and seed default users (used in local/Docker runtime)
+    ensure_db_initialized()
     yield
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
     description="Student Academic Performance Prediction System API with Regression, Classification, and Feature Selection.",
     version="1.0.0",
-    lifespan=lifespan
+    lifespan=None if IS_SERVERLESS else lifespan
 )
 
 # CORS Middleware
@@ -162,6 +171,12 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Serverless DB initializer middleware
+@app.middleware("http")
+async def db_session_middleware(request, call_next):
+    ensure_db_initialized()
+    return await call_next(request)
+
 # Mount API routers (both at /api and root level for zero configuration mismatch)
 app.include_router(api_router, prefix=settings.API_V1_STR)
 app.include_router(api_router)
@@ -170,11 +185,12 @@ app.include_router(api_router)
 @app.get("/api/health")
 @app.get("/health")
 def root_health():
+    ensure_db_initialized()
     db = SessionLocal()
     try:
         return check_health(db)
     except Exception as e:
-        return {"status": "degraded", "error": str(e)}
+        return {"status": "degraded", "error": str(e), "project": settings.PROJECT_NAME}
     finally:
         db.close()
 
