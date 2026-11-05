@@ -1,6 +1,13 @@
-from pydantic import BaseModel, EmailStr, Field
+from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Any
 from datetime import datetime
+
+# Safe EmailStr with fallback in case email-validator is absent
+try:
+    import email_validator
+    from pydantic import EmailStr
+except Exception:
+    EmailStr = str
 
 # ----------------- AUTH SCHEMAS -----------------
 class UserRegister(BaseModel):
