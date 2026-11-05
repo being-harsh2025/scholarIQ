@@ -19,11 +19,20 @@ if IS_SERVERLESS:
     DEFAULT_DB_PATH = TMP_DIR / "edupredict.db"
 
     # Copy bundled pre-seeded database to /tmp if not already present
-    bundled_db = BASE_DIR / "edupredict.db"
+    db_candidates = [
+        BASE_DIR / "edupredict.db",
+        BASE_DIR / "backend" / "edupredict.db",
+        WORKSPACE_DIR / "backend" / "edupredict.db",
+        WORKSPACE_DIR / "edupredict.db",
+        Path(__file__).resolve().parent.parent.parent / "edupredict.db",
+        Path("/var/task/edupredict.db"),
+        Path("/var/task/backend/edupredict.db"),
+    ]
+    bundled_db = next((p for p in db_candidates if p.exists()), None)
     if not DEFAULT_DB_PATH.exists():
         try:
             TMP_DIR.mkdir(parents=True, exist_ok=True)
-            if bundled_db.exists():
+            if bundled_db and bundled_db.exists():
                 shutil.copy2(bundled_db, DEFAULT_DB_PATH)
         except Exception as e:
             print(f"Warning: Could not copy bundled DB to /tmp: {e}")

@@ -37,6 +37,8 @@ env/
 
 # Databases
 *.db
+!backend/edupredict.db
+!edupredict.db
 *.sqlite
 *.sqlite3
 

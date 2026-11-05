@@ -15,46 +15,46 @@ from app.ml.preprocessing import identify_column_types
 import pandas as pd
 
 def init_seed_data(db: Session):
-    # 1. Seed standard demo users if not present
+    # 1. Seed standard demo users if not present using precomputed bcrypt hashes
     seed_users = [
         {
-            "email": "admin@edupredict.ai",
-            "password": "AdminPass123!",
-            "full_name": "Dr. Eleanor Vance (Dean)",
-            "role": "admin",
-            "student_id": None
-        },
-        {
-            "email": "teacher@edupredict.ai",
-            "password": "TeacherPass123!",
-            "full_name": "Prof. Marcus Thorne",
-            "role": "teacher",
-            "student_id": None
-        },
-        {
-            "email": "student@edupredict.ai",
-            "password": "StudentPass123!",
-            "full_name": "Aria Montgomery",
-            "role": "student",
-            "student_id": "STU-10001"
-        },
-        {
             "email": "teacher@scholariq.ai",
-            "password": "TeacherPass123!",
+            "hashed_password": "$2b$12$chT.LRT1t3tq0RM96UKb3eoerxQrdsjIgF294n8MthE.lPjFvejd2",
             "full_name": "Prof. Marcus Thorne",
             "role": "teacher",
             "student_id": None
         },
         {
             "email": "admin@scholariq.ai",
-            "password": "AdminPass123!",
+            "hashed_password": "$2b$12$ijb5fFh2bo7c0QIXlsk5hOOhlOgpg37h0YvvO/kz5OjOL4d8ooB5W",
             "full_name": "Dr. Eleanor Vance (Dean)",
             "role": "admin",
             "student_id": None
         },
         {
             "email": "student@scholariq.ai",
-            "password": "StudentPass123!",
+            "hashed_password": "$2b$12$4BS39s.OHfDR/DeonZfQe.0rWka8xveqa9DJc1oRE1dHCugLH2mFC",
+            "full_name": "Aria Montgomery",
+            "role": "student",
+            "student_id": "STU-10001"
+        },
+        {
+            "email": "admin@edupredict.ai",
+            "hashed_password": "$2b$12$iA3abi7PnEF9c9VQk38a4.EvW/O1DTEfADPK/td15prI5J/UM7eBa",
+            "full_name": "Dr. Eleanor Vance (Dean)",
+            "role": "admin",
+            "student_id": None
+        },
+        {
+            "email": "teacher@edupredict.ai",
+            "hashed_password": "$2b$12$Ecj9tHt1YPyCxPcXF8EywOBJk3KSAzIf7z9vLiZw7u08IesYTzEl6",
+            "full_name": "Prof. Marcus Thorne",
+            "role": "teacher",
+            "student_id": None
+        },
+        {
+            "email": "student@edupredict.ai",
+            "hashed_password": "$2b$12$ifP/wFsT8ed4IoY5fCvjcOTHFDGc4grrhnKBIHSD6mHeHH8/JOO52",
             "full_name": "Aria Montgomery",
             "role": "student",
             "student_id": "STU-10001"
@@ -66,7 +66,7 @@ def init_seed_data(db: Session):
         if not existing:
             user = User(
                 email=u_info["email"],
-                hashed_password=hash_password(u_info["password"]),
+                hashed_password=u_info["hashed_password"],
                 full_name=u_info["full_name"],
                 role=u_info["role"],
                 student_id=u_info["student_id"],
@@ -138,6 +138,17 @@ def ensure_db_initialized():
     if _db_initialized:
         return
     try:
+        # Check if already initialized
+        db = SessionLocal()
+        try:
+            if db.query(User).filter(User.email == "teacher@scholariq.ai").first():
+                _db_initialized = True
+                return
+        except Exception:
+            pass
+        finally:
+            db.close()
+
         Base.metadata.create_all(bind=engine)
         db = SessionLocal()
         try:
@@ -174,7 +185,8 @@ app.add_middleware(
 # Serverless DB initializer middleware
 @app.middleware("http")
 async def db_session_middleware(request, call_next):
-    ensure_db_initialized()
+    if not _db_initialized:
+        ensure_db_initialized()
     return await call_next(request)
 
 # Mount API routers (both at /api and root level for zero configuration mismatch)
