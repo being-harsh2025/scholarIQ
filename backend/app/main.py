@@ -207,6 +207,8 @@ def root_health():
         db.close()
 
 @app.get("/")
+@app.get("/api")
+@app.get("/api/index")
 def root():
     return {
         "project": settings.PROJECT_NAME,
