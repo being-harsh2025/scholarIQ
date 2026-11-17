@@ -214,6 +214,31 @@ This orchestrates:
 
 ---
 
+## Unified Vercel Deployment (Frontend + Backend at Once)
+
+ScholarIQ is configured as a single unified monorepo for Vercel. Deploying both Frontend and Backend together eliminates CORS issues, eliminates separate URL configurations, and provides a single unified domain for the application.
+
+### One-Click Deploy / Git Push
+1. Push your changes to GitHub:
+   ```bash
+   git push origin main
+   ```
+2. In your Vercel Dashboard:
+   - Import your repository: `being-harsh2025/scholarIQ`
+   - **Root Directory**: `./` (leave as repository root)
+   - **Framework Preset**: `Other` or `Vite`
+   - **Build Command**: Automatically read from `vercel.json` (`npm --prefix frontend install && npm --prefix frontend run build`)
+   - **Output Directory**: Automatically read from `vercel.json` (`frontend/dist`)
+   - **Environment Variables**: None required! (The app automatically uses relative `/api` on the same domain and pre-seeded SQLite in serverless `/tmp`).
+3. Click **Deploy**.
+
+### Routing Architecture:
+- `/*` (e.g. `/`, `/login`, `/dashboard`, `/datasets`, `/models`, etc.): Served by Vercel CDN from built Vite React SPA with instant cold-start.
+- `/api/*`: Routed to Python serverless function `api/index.py` (FastAPI backend).
+- `/docs`, `/redoc`, `/openapi.json`: Routed to FastAPI Swagger / OpenAPI documentation.
+
+---
+
 ## Methodological & Ethical AI Principles
 
 1. **Decision Support Only**:
