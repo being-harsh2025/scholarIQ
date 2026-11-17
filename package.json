@@ -1,0 +1,14 @@
+{
+  "name": "scholariq",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ScholarIQ - Unified Fullstack Student Academic Performance Prediction System",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn backend.app.main:app --reload",
+    "dev": "npm --prefix frontend run dev",
+    "preview": "npm --prefix frontend run preview",
+    "test": "npm --prefix frontend run test"
+  }
+}

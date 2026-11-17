@@ -1,8 +1,10 @@
 import os
 from contextlib import asynccontextmanager
 from pathlib import Path
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from sqlalchemy.orm import Session
 
 from app.core.config import settings, IS_SERVERLESS
@@ -206,13 +208,62 @@ def root_health():
     finally:
         db.close()
 
-@app.get("/")
 @app.get("/api")
+@app.get("/api/")
 @app.get("/api/index")
-def root():
+def api_root():
     return {
         "project": settings.PROJECT_NAME,
         "status": "online",
         "docs_url": "/docs",
         "api_v1": settings.API_V1_STR
     }
+
+# Check for built frontend distribution directory (for unified fullstack serving)
+_dist_candidates = [
+    Path(__file__).resolve().parent.parent.parent / "frontend" / "dist",
+    Path(__file__).resolve().parent.parent / "frontend" / "dist",
+    Path.cwd() / "frontend" / "dist",
+    Path("/var/task/frontend/dist")
+]
+frontend_dist = next((p for p in _dist_candidates if p.exists() and (p / "index.html").exists()), None)
+
+if frontend_dist:
+    assets_dir = frontend_dist / "assets"
+    if assets_dir.exists():
+        app.mount("/assets", StaticFiles(directory=str(assets_dir)), name="frontend_assets")
+
+    @app.get("/{full_path:path}")
+    async def serve_frontend_spa(full_path: str = ""):
+        # Exclude backend system, docs, and API endpoints
+        if (
+            full_path.startswith("api")
+            or full_path.startswith("auth")
+            or full_path.startswith("datasets")
+            or full_path.startswith("features")
+            or full_path.startswith("models")
+            or full_path.startswith("predictions")
+            or full_path.startswith("system")
+            or full_path in ["docs", "redoc", "openapi.json", "health"]
+        ):
+            raise HTTPException(status_code=404, detail="Endpoint not found")
+
+        file_candidate = frontend_dist / full_path
+        if full_path and file_candidate.is_file():
+            return FileResponse(file_candidate)
+
+        index_file = frontend_dist / "index.html"
+        if index_file.is_file():
+            return FileResponse(index_file)
+
+        raise HTTPException(status_code=404, detail="Resource not found")
+else:
+    @app.get("/")
+    def root():
+        return {
+            "project": settings.PROJECT_NAME,
+            "status": "online",
+            "docs_url": "/docs",
+            "api_v1": settings.API_V1_STR,
+            "frontend": "Not built yet. Run 'npm --prefix frontend run build' to generate static assets."
+        }

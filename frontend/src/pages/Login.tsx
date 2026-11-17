@@ -24,7 +24,7 @@ export const Login: React.FC = () => {
       navigate('/dashboard');
     } catch (err: any) {
       if (!err.response || err.response.status >= 500) {
-        setError('Cannot reach backend server at http://127.0.0.1:8000. Please ensure the Python FastAPI backend is running.');
+        setError('Cannot reach backend server. Please ensure the backend service is running.');
       } else if (err.response.status === 401) {
         setError(typeof err.response?.data?.detail === 'string' ? err.response.data.detail : 'Incorrect email or password. Please verify your credentials.');
       } else {

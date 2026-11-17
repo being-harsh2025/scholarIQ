@@ -62,7 +62,7 @@ export const Documentation: React.FC = () => {
             </div>
             <div className="pt-2">
               <a
-                href="http://127.0.0.1:8000/docs"
+                href="/docs"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-1.5 text-brand-600 hover:text-brand-700 font-semibold text-xs"
